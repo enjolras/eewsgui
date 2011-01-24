@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi__mainWidget" kind="class" prot="public">
+    <compoundname>Ui_mainWidget</compoundname>
+    <derivedcompoundref refid="classUi_1_1mainWidget" prot="public" virt="non-virtual">Ui::mainWidget</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classUi__mainWidget_1845b888fbf23ab9598849df43ff89a0c" prot="public" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* Ui_mainWidget::gridLayout</definition>
+        <argsstring></argsstring>
+        <name>gridLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWidget.h" line="26" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWidget.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__mainWidget_1f8dcbb0221a7c9c89d866eceb9557fc2" prot="public" static="no" mutable="no">
+        <type>QTabWidget *</type>
+        <definition>QTabWidget* Ui_mainWidget::tabWidget</definition>
+        <argsstring></argsstring>
+        <name>tabWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWidget.h" line="27" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWidget.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__mainWidget_1553753d9888d966b11aee172de850580" prot="public" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* Ui_mainWidget::tab</definition>
+        <argsstring></argsstring>
+        <name>tab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWidget.h" line="28" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWidget.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classUi__mainWidget_19f86f71f868c031af85987641c3a2324" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_mainWidget::setupUi</definition>
+        <argsstring>(QWidget *mainWidget)</argsstring>
+        <name>setupUi</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>mainWidget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWidget.h" line="31" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWidget.h" bodystart="30" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classUi__mainWidget_1b8c6a6341f53d719369c18c7cd0c9064" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_mainWidget::retranslateUi</definition>
+        <argsstring>(QWidget *mainWidget)</argsstring>
+        <name>retranslateUi</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>mainWidget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWidget.h" line="59" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWidget.h" bodystart="58" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="227">
+        <label>mainWidget</label>
+        <childnode refid="226" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="225">
+        <label>Ui_mainWidget</label>
+      </node>
+      <node id="226">
+        <label>Ui::mainWidget</label>
+        <childnode refid="225" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWidget.h" line="24" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWidget.h" bodystart="23" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classUi__mainWidget_1845b888fbf23ab9598849df43ff89a0c" prot="public" virt="non-virtual"><scope>Ui_mainWidget</scope><name>gridLayout</name></member>
+      <member refid="classUi__mainWidget_1b8c6a6341f53d719369c18c7cd0c9064" prot="public" virt="non-virtual"><scope>Ui_mainWidget</scope><name>retranslateUi</name></member>
+      <member refid="classUi__mainWidget_19f86f71f868c031af85987641c3a2324" prot="public" virt="non-virtual"><scope>Ui_mainWidget</scope><name>setupUi</name></member>
+      <member refid="classUi__mainWidget_1553753d9888d966b11aee172de850580" prot="public" virt="non-virtual"><scope>Ui_mainWidget</scope><name>tab</name></member>
+      <member refid="classUi__mainWidget_1f8dcbb0221a7c9c89d866eceb9557fc2" prot="public" virt="non-virtual"><scope>Ui_mainWidget</scope><name>tabWidget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

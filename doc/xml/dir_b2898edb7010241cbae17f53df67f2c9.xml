@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="dir_b2898edb7010241cbae17f53df67f2c9" kind="dir">
+    <compoundname>edujudge/eewsgui/src/eews/</compoundname>
+    <innerfile refid="eews_8h">eews.h</innerfile>
+    <innerfile refid="soapC_8cpp">soapC.cpp</innerfile>
+    <innerfile refid="soapeewsadmProxy_8cpp">soapeewsadmProxy.cpp</innerfile>
+    <innerfile refid="soapeewsadmProxy_8h">soapeewsadmProxy.h</innerfile>
+    <innerfile refid="soapH_8h">soapH.h</innerfile>
+    <innerfile refid="soapStub_8h">soapStub.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/"/>
+  </compounddef>
+</doxygen>

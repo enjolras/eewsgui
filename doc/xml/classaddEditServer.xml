@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classaddEditServer" kind="class" prot="public">
+    <compoundname>addEditServer</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">Ui::addEditServer</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classaddEditServer_1d23281040d3d38ddc3405fc7fd23f1f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addEditServer::addEditServer</definition>
+        <argsstring>(QWidget *parent=0, QString *oldURL=0)</argsstring>
+        <name>addEditServer</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QString *</type>
+          <declname>oldURL</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/addEditServer.h" line="33" bodyfile="/home/enjolras/edujudge/eewsgui/src/addEditServer.cpp" bodystart="25" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classaddEditServer_1c9832b8f9b4ddc04e9d6aa3ec15f422f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void addEditServer::urlAccepted</definition>
+        <argsstring>()</argsstring>
+        <name>urlAccepted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/addEditServer.h" line="36" bodyfile="/home/enjolras/edujudge/eewsgui/src/addEditServer.cpp" bodystart="40" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classaddEditServer_17255270436cc99f45a2572fa1f2e34b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void addEditServer::newURL</definition>
+        <argsstring>(QString newURL)</argsstring>
+        <name>newURL</name>
+        <param>
+          <type>QString</type>
+          <declname>newURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/addEditServer.h" line="39" bodyfile="/home/enjolras/edujudge/eewsgui/src/moc_addEditServer.cpp" bodystart="78" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="13">
+        <label>addEditServer</label>
+        <childnode refid="14" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Ui_addEditServer</label>
+      </node>
+      <node id="14">
+        <label>Ui::addEditServer</label>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>addEditServer</label>
+        <childnode refid="17" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>Ui_addEditServer</label>
+      </node>
+      <node id="17">
+        <label>Ui::addEditServer</label>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/addEditServer.h" line="28" bodyfile="/home/enjolras/edujudge/eewsgui/src/addEditServer.h" bodystart="28" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classaddEditServer_1d23281040d3d38ddc3405fc7fd23f1f0" prot="public" virt="non-virtual"><scope>addEditServer</scope><name>addEditServer</name></member>
+      <member refid="classUi__addEditServer_199b1128bebbf21a1c62a17783992fade" prot="private" virt="non-virtual"><scope>addEditServer</scope><name>buttonBox</name></member>
+      <member refid="classUi__addEditServer_1c9459a50fa0f982cc0e916acd7f0cd5c" prot="private" virt="non-virtual"><scope>addEditServer</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__addEditServer_166a6918a8315d00bd69e83ce8558a3cc" prot="private" virt="non-virtual"><scope>addEditServer</scope><name>label</name></member>
+      <member refid="classaddEditServer_17255270436cc99f45a2572fa1f2e34b1" prot="public" virt="non-virtual"><scope>addEditServer</scope><name>newURL</name></member>
+      <member refid="classUi__addEditServer_186a9b759f1666d11a4f1cf3eb70b0825" prot="private" virt="non-virtual"><scope>addEditServer</scope><name>retranslateUi</name></member>
+      <member refid="classUi__addEditServer_14fb47fe59dc0b837022dfaeed23a25af" prot="private" virt="non-virtual"><scope>addEditServer</scope><name>serverURL</name></member>
+      <member refid="classUi__addEditServer_13546eaadd20c90671244a7334f5c6cc8" prot="private" virt="non-virtual"><scope>addEditServer</scope><name>setupUi</name></member>
+      <member refid="classaddEditServer_1c9832b8f9b4ddc04e9d6aa3ec15f422f" prot="private" virt="non-virtual"><scope>addEditServer</scope><name>urlAccepted</name></member>
+      <member refid="classUi__addEditServer_1f8ff10060b169ba6003e6bcd72cded14" prot="private" virt="non-virtual"><scope>addEditServer</scope><name>verticalLayout</name></member>
+      <member refid="classUi__addEditServer_1abfc1e6f3e67bb7075d15b78ebdd8277" prot="private" virt="non-virtual"><scope>addEditServer</scope><name>verticalSpacer</name></member>
+      <member refid="classUi__addEditServer_102c60d642789dadb1f95dec5f99ff163" prot="private" virt="non-virtual"><scope>addEditServer</scope><name>verticalSpacer_2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

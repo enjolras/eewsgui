@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi__serverTab" kind="class" prot="public">
+    <compoundname>Ui_serverTab</compoundname>
+    <derivedcompoundref refid="classUi_1_1serverTab" prot="public" virt="non-virtual">Ui::serverTab</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classUi__serverTab_198bfc6452568979827cd88b1c701d296" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_serverTab::verticalLayout_3</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="30" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_1843afbd73d9cb083900dff46a1c1e45b" prot="public" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* Ui_serverTab::horizontalLayout_3</definition>
+        <argsstring></argsstring>
+        <name>horizontalLayout_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="31" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_1c1a2a9ee461279fd48d0286f383c38e3" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_serverTab::verticalLayout</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="32" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_1745afa056da728051277ce7793d14ee5" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_serverTab::label_3</definition>
+        <argsstring></argsstring>
+        <name>label_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="33" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_195b42005e4e0863bd2462998ad80022b" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_serverTab::label_4</definition>
+        <argsstring></argsstring>
+        <name>label_4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="34" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_10d7c68a654f080db8fe478116e72c5ec" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_serverTab::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="35" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_1c0d6f1018b043654a02a3c4f1e79c74a" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_serverTab::verticalLayout_2</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="36" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_1bc62824280b821cbdaab260d77302c9d" prot="public" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* Ui_serverTab::horizontalLayout</definition>
+        <argsstring></argsstring>
+        <name>horizontalLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="37" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_11cfeec1e49b502fc775fc2e8945438cb" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Ui_serverTab::servicesPort</definition>
+        <argsstring></argsstring>
+        <name>servicesPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="38" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_1a3cf24adeabb266e66faeebb9b3ef7c8" prot="public" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* Ui_serverTab::horizontalSpacer</definition>
+        <argsstring></argsstring>
+        <name>horizontalSpacer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="39" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_1a2c4e37641b287103ef372d1679ab532" prot="public" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* Ui_serverTab::horizontalLayout_2</definition>
+        <argsstring></argsstring>
+        <name>horizontalLayout_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="40" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_1e59d4a9240c068123a6247dd6396074c" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Ui_serverTab::adminPort</definition>
+        <argsstring></argsstring>
+        <name>adminPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="41" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_15b8324cd0fe6f3cc218668fef783fac2" prot="public" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* Ui_serverTab::horizontalSpacer_2</definition>
+        <argsstring></argsstring>
+        <name>horizontalSpacer_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="42" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_1687696d265af77898e9902cafe16b47b" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Ui_serverTab::pluginDir</definition>
+        <argsstring></argsstring>
+        <name>pluginDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="43" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_1d1d825321a00ee4d153ecff6df0253db" prot="public" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* Ui_serverTab::verticalSpacer</definition>
+        <argsstring></argsstring>
+        <name>verticalSpacer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="44" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_1680a1c67d42df1ae59fc8c51cc533262" prot="public" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* Ui_serverTab::horizontalLayout_4</definition>
+        <argsstring></argsstring>
+        <name>horizontalLayout_4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="45" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_147c48a494d19078e8afed23b35d8e53d" prot="public" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* Ui_serverTab::horizontalSpacer_3</definition>
+        <argsstring></argsstring>
+        <name>horizontalSpacer_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="46" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__serverTab_1613e572d13302c431f85c493adf26cf8" prot="public" static="no" mutable="no">
+        <type>QDialogButtonBox *</type>
+        <definition>QDialogButtonBox* Ui_serverTab::buttonBox</definition>
+        <argsstring></argsstring>
+        <name>buttonBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="47" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classUi__serverTab_1fc41e88afb0bb3fbba4e5808f14c9fbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_serverTab::setupUi</definition>
+        <argsstring>(QWidget *serverTab)</argsstring>
+        <name>setupUi</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>serverTab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="50" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="49" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classUi__serverTab_1417f9bfaa4aa45fabfad1bffa58bdad3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_serverTab::retranslateUi</definition>
+        <argsstring>(QWidget *serverTab)</argsstring>
+        <name>retranslateUi</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>serverTab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="156" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="155" bodyend="162"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="247">
+        <label>serverTab</label>
+        <childnode refid="246" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="245">
+        <label>Ui_serverTab</label>
+      </node>
+      <node id="246">
+        <label>Ui::serverTab</label>
+        <childnode refid="245" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" line="28" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serverTab.h" bodystart="27" bodyend="164"/>
+    <listofallmembers>
+      <member refid="classUi__serverTab_1e59d4a9240c068123a6247dd6396074c" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>adminPort</name></member>
+      <member refid="classUi__serverTab_1613e572d13302c431f85c493adf26cf8" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>buttonBox</name></member>
+      <member refid="classUi__serverTab_1bc62824280b821cbdaab260d77302c9d" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__serverTab_1a2c4e37641b287103ef372d1679ab532" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>horizontalLayout_2</name></member>
+      <member refid="classUi__serverTab_1843afbd73d9cb083900dff46a1c1e45b" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>horizontalLayout_3</name></member>
+      <member refid="classUi__serverTab_1680a1c67d42df1ae59fc8c51cc533262" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>horizontalLayout_4</name></member>
+      <member refid="classUi__serverTab_1a3cf24adeabb266e66faeebb9b3ef7c8" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>horizontalSpacer</name></member>
+      <member refid="classUi__serverTab_15b8324cd0fe6f3cc218668fef783fac2" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>horizontalSpacer_2</name></member>
+      <member refid="classUi__serverTab_147c48a494d19078e8afed23b35d8e53d" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>horizontalSpacer_3</name></member>
+      <member refid="classUi__serverTab_10d7c68a654f080db8fe478116e72c5ec" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>label</name></member>
+      <member refid="classUi__serverTab_1745afa056da728051277ce7793d14ee5" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>label_3</name></member>
+      <member refid="classUi__serverTab_195b42005e4e0863bd2462998ad80022b" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>label_4</name></member>
+      <member refid="classUi__serverTab_1687696d265af77898e9902cafe16b47b" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>pluginDir</name></member>
+      <member refid="classUi__serverTab_1417f9bfaa4aa45fabfad1bffa58bdad3" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>retranslateUi</name></member>
+      <member refid="classUi__serverTab_11cfeec1e49b502fc775fc2e8945438cb" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>servicesPort</name></member>
+      <member refid="classUi__serverTab_1fc41e88afb0bb3fbba4e5808f14c9fbb" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>setupUi</name></member>
+      <member refid="classUi__serverTab_1c1a2a9ee461279fd48d0286f383c38e3" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>verticalLayout</name></member>
+      <member refid="classUi__serverTab_1c0d6f1018b043654a02a3c4f1e79c74a" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>verticalLayout_2</name></member>
+      <member refid="classUi__serverTab_198bfc6452568979827cd88b1c701d296" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>verticalLayout_3</name></member>
+      <member refid="classUi__serverTab_1d1d825321a00ee4d153ecff6df0253db" prot="public" virt="non-virtual"><scope>Ui_serverTab</scope><name>verticalSpacer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

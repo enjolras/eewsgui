@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="dir_e2af43352195da8e1d0503fe27dcf6af" kind="dir">
+    <compoundname>edujudge/</compoundname>
+    <innerdir refid="dir_ee69a9865837a9d0c5f108c758f6027e">edujudge/eewsgui/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enjolras/edujudge/"/>
+  </compounddef>
+</doxygen>

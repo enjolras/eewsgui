@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="structns2____setPluginAutoloadResponse" kind="struct" prot="public">
+    <compoundname>ns2__setPluginAutoloadResponse</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structns2____setPluginAutoloadResponse_1d174bcf3a375d95ec2a4b224060e4eb8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ns2__setPluginAutoloadResponse::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="286" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="284" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="283" bodyend="287"/>
+    <listofallmembers>
+      <member refid="structns2____setPluginAutoloadResponse_1d174bcf3a375d95ec2a4b224060e4eb8" prot="public" virt="non-virtual"><scope>ns2__setPluginAutoloadResponse</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

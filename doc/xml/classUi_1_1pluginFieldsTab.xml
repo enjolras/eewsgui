@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi_1_1pluginFieldsTab" kind="class" prot="public">
+    <compoundname>Ui::pluginFieldsTab</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Ui_pluginFieldsTab</basecompoundref>
+    <derivedcompoundref refid="classpluginFieldsTab" prot="private" virt="non-virtual">pluginFieldsTab</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="149">
+        <label>Ui::pluginFieldsTab</label>
+        <childnode refid="150" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="151">
+        <label>pluginFieldsTab</label>
+        <childnode refid="149" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="150">
+        <label>Ui_pluginFieldsTab</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="152">
+        <label>Ui::pluginFieldsTab</label>
+        <childnode refid="153" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="153">
+        <label>Ui_pluginFieldsTab</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_pluginFieldsTab.h" line="140" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_pluginFieldsTab.h" bodystart="140" bodyend="140"/>
+    <listofallmembers>
+      <member refid="classUi__pluginFieldsTab_10ca744325d10dba1424993ee252e07a2" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>autoloadCombo</name></member>
+      <member refid="classUi__pluginFieldsTab_13a585b73b30e3ce83600cae5409ef4c4" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>descLabel</name></member>
+      <member refid="classUi__pluginFieldsTab_16436a2639bc7be43eaf0e61ee35a5a04" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>fieldsBox</name></member>
+      <member refid="classUi__pluginFieldsTab_11c8e363ac8136588481608ba2f5e03e7" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>groupBox</name></member>
+      <member refid="classUi__pluginFieldsTab_1169eaabe949ab9e4283387a31c37d436" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>groupBox_3</name></member>
+      <member refid="classUi__pluginFieldsTab_141110fbe1ddacbb015563f114bc1335a" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__pluginFieldsTab_1b1e300e061dfa0a5925ddc9e10052cbf" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>horizontalLayout_2</name></member>
+      <member refid="classUi__pluginFieldsTab_10df0df84616f52cea512e803b46dfd1e" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>horizontalLayout_3</name></member>
+      <member refid="classUi__pluginFieldsTab_113b219bba83d9e135f4dab1b772516ff" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>horizontalSpacer</name></member>
+      <member refid="classUi__pluginFieldsTab_1eadd44375ad2a2e621bc9fbd15768979" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>label_2</name></member>
+      <member refid="classUi__pluginFieldsTab_19b59adcb1e09427751139bd16e4f40bd" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>retranslateUi</name></member>
+      <member refid="classUi__pluginFieldsTab_184a8341783dcc3d62220664c69e8472b" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>setupUi</name></member>
+      <member refid="classUi__pluginFieldsTab_1910351dd68c3c739538935bcf8af759c" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>startButton</name></member>
+      <member refid="classUi__pluginFieldsTab_1814284828ecdc4cad5e1f1cb071b6ac4" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>stopButton</name></member>
+      <member refid="classUi__pluginFieldsTab_1d52b18f4ba879fb3882879043e55f3f2" prot="public" virt="non-virtual"><scope>Ui::pluginFieldsTab</scope><name>verticalLayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

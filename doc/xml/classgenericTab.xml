@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classgenericTab" kind="class" prot="public">
+    <compoundname>genericTab</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">Ui::genericTab</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgenericTab_16e68d270895423e73957446e72dccaa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>genericTab::genericTab</definition>
+        <argsstring>(QWidget *parent=0, QWidget *central=0, QString tabTitleString=NULL)</argsstring>
+        <name>genericTab</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>central</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>tabTitleString</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/genericTab.h" line="31" bodyfile="/home/enjolras/edujudge/eewsgui/src/genericTab.cpp" bodystart="24" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="42">
+        <label>genericTab</label>
+        <childnode refid="43" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>Ui::genericTab</label>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>Ui_genericTab</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="45">
+        <label>genericTab</label>
+        <childnode refid="46" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>Ui::genericTab</label>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>Ui_genericTab</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/genericTab.h" line="26" bodyfile="/home/enjolras/edujudge/eewsgui/src/genericTab.h" bodystart="26" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classUi__genericTab_164cc06b4c5999061a6a7b1f0987b1f94" prot="private" virt="non-virtual"><scope>genericTab</scope><name>centralWidget</name></member>
+      <member refid="classgenericTab_16e68d270895423e73957446e72dccaa5" prot="public" virt="non-virtual"><scope>genericTab</scope><name>genericTab</name></member>
+      <member refid="classUi__genericTab_14d164af70b0941226dd562281e9d3853" prot="private" virt="non-virtual"><scope>genericTab</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__genericTab_178553b9b20e55471176030115c9ff035" prot="private" virt="non-virtual"><scope>genericTab</scope><name>horizontalSpacer</name></member>
+      <member refid="classUi__genericTab_14dd4b527e65051a866c408e21b2b887c" prot="private" virt="non-virtual"><scope>genericTab</scope><name>retranslateUi</name></member>
+      <member refid="classUi__genericTab_1dddff70814a8e39463a5094bc4e63f4a" prot="private" virt="non-virtual"><scope>genericTab</scope><name>setupUi</name></member>
+      <member refid="classUi__genericTab_15e2519979c70eedfee606d3abc7e1e2d" prot="private" virt="non-virtual"><scope>genericTab</scope><name>tabTitle</name></member>
+      <member refid="classUi__genericTab_16df550176b078692d0c946b8d31c0fb3" prot="private" virt="non-virtual"><scope>genericTab</scope><name>verticalLayout</name></member>
+      <member refid="classUi__genericTab_11e86cf2882d788cf3e4bd0a27428a3c0" prot="private" virt="non-virtual"><scope>genericTab</scope><name>verticalSpacer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

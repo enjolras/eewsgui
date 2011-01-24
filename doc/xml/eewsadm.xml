@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="eewsadm" kind="page">
+    <compoundname>eewsadm</compoundname>
+    <title>Binding &quot;eewsadm&quot;</title>
+    <detaileddescription>
+<sect1 id="eewsadm_1eewsadm_service">
+<title>Service Documentation &quot;eewsadm&quot;</title>
+<para>Evaluation Engine Web Services Administration</para></sect1>
+<sect1 id="eewsadm_1eewsadm_operations">
+<title>Operations of Binding  &quot;eewsadm&quot;</title>
+<para><itemizedlist>
+<listitem><para>ns2__getPluginData</para></listitem><listitem><para>ns2__version</para></listitem><listitem><para>ns2__getPluginList</para></listitem><listitem><para>ns2__getServerConf</para></listitem><listitem><para>ns2__setServerConf</para></listitem><listitem><para>ns2__startPlugin</para></listitem><listitem><para>ns2__stopPlugin</para></listitem><listitem><para>ns2__setPluginAutoload</para></listitem><listitem><para>ns2__getPluginFieldList</para></listitem><listitem><para>ns2__getPluginFieldValue</para></listitem><listitem><para>ns2__setPluginFieldValue</para></listitem></itemizedlist>
+</para></sect1>
+<sect1 id="eewsadm_1eewsadm_ports">
+<title>Endpoints of Binding  &quot;eewsadm&quot;</title>
+<para><itemizedlist>
+<listitem><para><ulink url="http://www.edujudge.eu">http://www.edujudge.eu</ulink></para></listitem></itemizedlist>
+</para><para>Note: use wsdl2h option -N to change the service binding prefix name </para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

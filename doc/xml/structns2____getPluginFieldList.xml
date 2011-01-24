@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="structns2____getPluginFieldList" kind="struct" prot="public">
+    <compoundname>ns2__getPluginFieldList</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structns2____getPluginFieldList_15c2921cc0bf1b9f139e14c42ae1a0a30" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ns2__getPluginFieldList::uniqid</definition>
+        <argsstring></argsstring>
+        <name>uniqid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="317" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="315" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="314" bodyend="318"/>
+    <listofallmembers>
+      <member refid="structns2____getPluginFieldList_15c2921cc0bf1b9f139e14c42ae1a0a30" prot="public" virt="non-virtual"><scope>ns2__getPluginFieldList</scope><name>uniqid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

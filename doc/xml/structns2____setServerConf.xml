@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="structns2____setServerConf" kind="struct" prot="public">
+    <compoundname>ns2__setServerConf</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structns2____setServerConf_174700db7b7aba2925bd75a849603d14a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ns2__setServerConf::pluginDir</definition>
+        <argsstring></argsstring>
+        <name>pluginDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="234" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structns2____setServerConf_13e362331de22018ee82bfdbef268e27c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ns2__setServerConf::svcPort</definition>
+        <argsstring></argsstring>
+        <name>svcPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="235" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structns2____setServerConf_1bfc2126a63e7d51d8cb7dda4d0e91246" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ns2__setServerConf::admPort</definition>
+        <argsstring></argsstring>
+        <name>admPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="236" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="232" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="231" bodyend="237"/>
+    <listofallmembers>
+      <member refid="structns2____setServerConf_1bfc2126a63e7d51d8cb7dda4d0e91246" prot="public" virt="non-virtual"><scope>ns2__setServerConf</scope><name>admPort</name></member>
+      <member refid="structns2____setServerConf_174700db7b7aba2925bd75a849603d14a" prot="public" virt="non-virtual"><scope>ns2__setServerConf</scope><name>pluginDir</name></member>
+      <member refid="structns2____setServerConf_13e362331de22018ee82bfdbef268e27c" prot="public" virt="non-virtual"><scope>ns2__setServerConf</scope><name>svcPort</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

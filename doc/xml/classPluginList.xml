@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classPluginList" kind="class" prot="public">
+    <compoundname>PluginList</compoundname>
+    <includes refid="eews_8h" local="no">eews.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classPluginList_1629bd47558213f43bd66fe8933e9ebbb" prot="public" static="no" mutable="no">
+        <type><ref refid="classns2____PluginData" kindref="compound">ns2__PluginData</ref> **</type>
+        <definition>ns2__PluginData* * PluginList::__ptr</definition>
+        <argsstring></argsstring>
+        <name>__ptr</name>
+        <briefdescription>
+<para>Pointer to array of ns2__PluginData*. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="125" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPluginList_1c4f4706c4e0ac0dc340551cc0dfa9b57" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PluginList::__size</definition>
+        <argsstring></argsstring>
+        <name>__size</name>
+        <briefdescription>
+<para>Size of the dynamic array. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="127" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPluginList_196ba7bccc56b6dd61651a9c0f85a4cc0" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="classPluginList_196ba7bccc56b6dd61651a9c0f85a4cc0" kindref="member">soap</ref> *</type>
+        <definition>struct soap* PluginList::soap</definition>
+        <argsstring></argsstring>
+        <name>soap</name>
+        <briefdescription>
+<para>Offset for partially transmitted arrays (uncomment only when required). </para>        </briefdescription>
+        <detaileddescription>
+<para>A handle to the soap struct that manages this instance (automatically set) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="131" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPluginList_13882efa03a85a2ff8418793712ffc602" prot="public" static="no" mutable="no">
+        <type><ref refid="classns2____PluginData" kindref="compound">ns2__PluginData</ref> **</type>
+        <definition>ns2__PluginData** PluginList::__ptr</definition>
+        <argsstring></argsstring>
+        <name>__ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="89" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPluginList_196ba7bccc56b6dd61651a9c0f85a4cc0" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="classPluginList_196ba7bccc56b6dd61651a9c0f85a4cc0" kindref="member">soap</ref> *</type>
+        <definition>struct soap* PluginList::soap</definition>
+        <argsstring></argsstring>
+        <name>soap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="91" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPluginList_1b8baf99082bf82d2892d57cd7eb18744" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int PluginList::soap_type</definition>
+        <argsstring>() const </argsstring>
+        <name>soap_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="93" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classPluginList_1d99b989745f5ba02d19db24543e8ecf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PluginList::soap_default</definition>
+        <argsstring>(struct soap *)</argsstring>
+        <name>soap_default</name>
+        <param>
+          <type>struct <ref refid="classPluginList_196ba7bccc56b6dd61651a9c0f85a4cc0" kindref="member">soap</ref> *</type>
+          <defname>soap</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="94" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapC.cpp" bodystart="1441" bodyend="1446"/>
+      </memberdef>
+      <memberdef kind="function" id="classPluginList_15f96753afc9a2fefea19e1e828839fc6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PluginList::soap_serialize</definition>
+        <argsstring>(struct soap *) const </argsstring>
+        <name>soap_serialize</name>
+        <param>
+          <type>struct <ref refid="classPluginList_196ba7bccc56b6dd61651a9c0f85a4cc0" kindref="member">soap</ref> *</type>
+          <defname>soap</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="95" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapC.cpp" bodystart="1448" bodyend="1455"/>
+      </memberdef>
+      <memberdef kind="function" id="classPluginList_1d55f399b5f0b4dfa7d2b3b392fe0dd06" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int PluginList::soap_put</definition>
+        <argsstring>(struct soap *, const char *, const char *) const </argsstring>
+        <name>soap_put</name>
+        <param>
+          <type>struct <ref refid="classPluginList_196ba7bccc56b6dd61651a9c0f85a4cc0" kindref="member">soap</ref> *</type>
+          <defname>soap</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <defname>tag</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <defname>type</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="96" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapC.cpp" bodystart="1457" bodyend="1463"/>
+      </memberdef>
+      <memberdef kind="function" id="classPluginList_16fedcb6a2fcf66fe25a72b156ff07f71" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int PluginList::soap_out</definition>
+        <argsstring>(struct soap *, const char *, int, const char *) const </argsstring>
+        <name>soap_out</name>
+        <param>
+          <type>struct <ref refid="classPluginList_196ba7bccc56b6dd61651a9c0f85a4cc0" kindref="member">soap</ref> *</type>
+          <defname>soap</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <defname>tag</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>id</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <defname>type</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="97" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapC.cpp" bodystart="1465" bodyend="1467"/>
+      </memberdef>
+      <memberdef kind="function" id="classPluginList_14737b6b815b521daeef3ae37d9efa4e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void *</type>
+        <definition>void * PluginList::soap_get</definition>
+        <argsstring>(struct soap *, const char *, const char *)</argsstring>
+        <name>soap_get</name>
+        <param>
+          <type>struct <ref refid="classPluginList_196ba7bccc56b6dd61651a9c0f85a4cc0" kindref="member">soap</ref> *</type>
+          <defname>soap</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <defname>tag</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <defname>type</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="98" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapC.cpp" bodystart="1488" bodyend="1491"/>
+      </memberdef>
+      <memberdef kind="function" id="classPluginList_1df521b2378b925ae1784b6f90198798a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void *</type>
+        <definition>void * PluginList::soap_in</definition>
+        <argsstring>(struct soap *, const char *, const char *)</argsstring>
+        <name>soap_in</name>
+        <param>
+          <type>struct <ref refid="classPluginList_196ba7bccc56b6dd61651a9c0f85a4cc0" kindref="member">soap</ref> *</type>
+          <defname>soap</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <defname>tag</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <defname>type</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="99" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapC.cpp" bodystart="1501" bodyend="1503"/>
+      </memberdef>
+      <memberdef kind="function" id="classPluginList_1cdc6fd5952b66aef1dce84d701624811" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PluginList::PluginList</definition>
+        <argsstring>()</argsstring>
+        <name>PluginList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="100" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classPluginList_17d598e91e9df0d821f11ccecfa267eef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual PluginList::~PluginList</definition>
+        <argsstring>()</argsstring>
+        <name>~PluginList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="101" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="101" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>&quot;urn:eewsadm&quot;:<ref refid="classPluginList" kindref="compound">PluginList</ref> is a complexType with complexContent restriction of SOAP-ENC:Array. SOAP encoded array of &quot;urn:eewsadm&quot;:PluginData </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="156">
+        <label>ns2__PluginData</label>
+        <link refid="classns2____PluginData"/>
+      </node>
+      <node id="155">
+        <label>PluginList</label>
+        <link refid="classPluginList"/>
+        <childnode refid="156" relation="usage">
+          <edgelabel>__ptr</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="123" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="122" bodyend="132"/>
+    <listofallmembers>
+      <member refid="classPluginList_1629bd47558213f43bd66fe8933e9ebbb" prot="public" virt="non-virtual"><scope>PluginList</scope><name>__ptr</name></member>
+      <member refid="classPluginList_13882efa03a85a2ff8418793712ffc602" prot="public" virt="non-virtual"><scope>PluginList</scope><name>__ptr</name></member>
+      <member refid="classPluginList_1c4f4706c4e0ac0dc340551cc0dfa9b57" prot="public" virt="non-virtual"><scope>PluginList</scope><name>__size</name></member>
+      <member refid="classPluginList_1cdc6fd5952b66aef1dce84d701624811" prot="public" virt="non-virtual"><scope>PluginList</scope><name>PluginList</name></member>
+      <member refid="classPluginList_196ba7bccc56b6dd61651a9c0f85a4cc0" prot="public" virt="non-virtual"><scope>PluginList</scope><name>soap</name></member>
+      <member refid="classPluginList_196ba7bccc56b6dd61651a9c0f85a4cc0" prot="public" virt="non-virtual"><scope>PluginList</scope><name>soap</name></member>
+      <member refid="classPluginList_1d99b989745f5ba02d19db24543e8ecf1" prot="public" virt="virtual"><scope>PluginList</scope><name>soap_default</name></member>
+      <member refid="classPluginList_14737b6b815b521daeef3ae37d9efa4e9" prot="public" virt="virtual"><scope>PluginList</scope><name>soap_get</name></member>
+      <member refid="classPluginList_1df521b2378b925ae1784b6f90198798a" prot="public" virt="virtual"><scope>PluginList</scope><name>soap_in</name></member>
+      <member refid="classPluginList_16fedcb6a2fcf66fe25a72b156ff07f71" prot="public" virt="virtual"><scope>PluginList</scope><name>soap_out</name></member>
+      <member refid="classPluginList_1d55f399b5f0b4dfa7d2b3b392fe0dd06" prot="public" virt="virtual"><scope>PluginList</scope><name>soap_put</name></member>
+      <member refid="classPluginList_15f96753afc9a2fefea19e1e828839fc6" prot="public" virt="virtual"><scope>PluginList</scope><name>soap_serialize</name></member>
+      <member refid="classPluginList_1b8baf99082bf82d2892d57cd7eb18744" prot="public" virt="virtual"><scope>PluginList</scope><name>soap_type</name></member>
+      <member refid="classPluginList_17d598e91e9df0d821f11ccecfa267eef" prot="public" virt="virtual"><scope>PluginList</scope><name>~PluginList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

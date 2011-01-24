@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi_1_1addEditServer" kind="class" prot="public">
+    <compoundname>Ui::addEditServer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Ui_addEditServer</basecompoundref>
+    <derivedcompoundref refid="classaddEditServer" prot="private" virt="non-virtual">addEditServer</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>addEditServer</label>
+        <childnode refid="19" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>Ui_addEditServer</label>
+      </node>
+      <node id="19">
+        <label>Ui::addEditServer</label>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>Ui_addEditServer</label>
+      </node>
+      <node id="22">
+        <label>Ui::addEditServer</label>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" line="99" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" bodystart="99" bodyend="99"/>
+    <listofallmembers>
+      <member refid="classUi__addEditServer_199b1128bebbf21a1c62a17783992fade" prot="public" virt="non-virtual"><scope>Ui::addEditServer</scope><name>buttonBox</name></member>
+      <member refid="classUi__addEditServer_1c9459a50fa0f982cc0e916acd7f0cd5c" prot="public" virt="non-virtual"><scope>Ui::addEditServer</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__addEditServer_166a6918a8315d00bd69e83ce8558a3cc" prot="public" virt="non-virtual"><scope>Ui::addEditServer</scope><name>label</name></member>
+      <member refid="classUi__addEditServer_186a9b759f1666d11a4f1cf3eb70b0825" prot="public" virt="non-virtual"><scope>Ui::addEditServer</scope><name>retranslateUi</name></member>
+      <member refid="classUi__addEditServer_14fb47fe59dc0b837022dfaeed23a25af" prot="public" virt="non-virtual"><scope>Ui::addEditServer</scope><name>serverURL</name></member>
+      <member refid="classUi__addEditServer_13546eaadd20c90671244a7334f5c6cc8" prot="public" virt="non-virtual"><scope>Ui::addEditServer</scope><name>setupUi</name></member>
+      <member refid="classUi__addEditServer_1f8ff10060b169ba6003e6bcd72cded14" prot="public" virt="non-virtual"><scope>Ui::addEditServer</scope><name>verticalLayout</name></member>
+      <member refid="classUi__addEditServer_1abfc1e6f3e67bb7075d15b78ebdd8277" prot="public" virt="non-virtual"><scope>Ui::addEditServer</scope><name>verticalSpacer</name></member>
+      <member refid="classUi__addEditServer_102c60d642789dadb1f95dec5f99ff163" prot="public" virt="non-virtual"><scope>Ui::addEditServer</scope><name>verticalSpacer_2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

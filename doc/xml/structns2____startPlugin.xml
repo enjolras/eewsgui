@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="structns2____startPlugin" kind="struct" prot="public">
+    <compoundname>ns2__startPlugin</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structns2____startPlugin_1b6c23646065dc37dba99c6a0fc4ab81a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ns2__startPlugin::uniqid</definition>
+        <argsstring></argsstring>
+        <name>uniqid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="256" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="254" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="253" bodyend="257"/>
+    <listofallmembers>
+      <member refid="structns2____startPlugin_1b6c23646065dc37dba99c6a0fc4ab81a" prot="public" virt="non-virtual"><scope>ns2__startPlugin</scope><name>uniqid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

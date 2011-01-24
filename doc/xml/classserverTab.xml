@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classserverTab" kind="class" prot="public">
+    <compoundname>serverTab</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">Ui::serverTab</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classserverTab_10580a66fec46d3ffaf402deba898cc7d" prot="private" static="no" mutable="no">
+        <type>eewsadmObject *</type>
+        <definition>eewsadmObject* serverTab::eewsadm</definition>
+        <argsstring></argsstring>
+        <name>eewsadm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/serverTab.h" line="37" bodyfile="/home/enjolras/edujudge/eewsgui/src/serverTab.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classserverTab_11cfcca91a347fb2cf17531d5a1d08651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serverTab::serverTab</definition>
+        <argsstring>(QWidget *parent=0, eewsadmObject *eews=0)</argsstring>
+        <name>serverTab</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>eewsadmObject *</type>
+          <declname>eews</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/serverTab.h" line="34" bodyfile="/home/enjolras/edujudge/eewsgui/src/serverTab.cpp" bodystart="26" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classserverTab_158a188c579e2a1a46c1fb11b1b0ea54b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void serverTab::loadFields</definition>
+        <argsstring>()</argsstring>
+        <name>loadFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/serverTab.h" line="40" bodyfile="/home/enjolras/edujudge/eewsgui/src/serverTab.cpp" bodystart="41" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="slot" id="classserverTab_1dafcdbd1ec51c685bd226444f4194585" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void serverTab::buttonClicked</definition>
+        <argsstring>(QAbstractButton *button)</argsstring>
+        <name>buttonClicked</name>
+        <param>
+          <type>QAbstractButton *</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/serverTab.h" line="41" bodyfile="/home/enjolras/edujudge/eewsgui/src/serverTab.cpp" bodystart="52" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="183">
+        <label>serverTab</label>
+        <childnode refid="184" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>Ui_serverTab</label>
+      </node>
+      <node id="184">
+        <label>Ui::serverTab</label>
+        <childnode refid="185" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="186">
+        <label>serverTab</label>
+        <childnode refid="187" relation="private-inheritance">
+        </childnode>
+        <childnode refid="189" relation="usage">
+          <edgelabel>eewsadm</edgelabel>
+        </childnode>
+      </node>
+      <node id="190">
+        <label>eewsadmProxy</label>
+      </node>
+      <node id="188">
+        <label>Ui_serverTab</label>
+      </node>
+      <node id="187">
+        <label>Ui::serverTab</label>
+        <childnode refid="188" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>eewsadmObject</label>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/serverTab.h" line="29" bodyfile="/home/enjolras/edujudge/eewsgui/src/serverTab.h" bodystart="29" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classUi__serverTab_1e59d4a9240c068123a6247dd6396074c" prot="private" virt="non-virtual"><scope>serverTab</scope><name>adminPort</name></member>
+      <member refid="classUi__serverTab_1613e572d13302c431f85c493adf26cf8" prot="private" virt="non-virtual"><scope>serverTab</scope><name>buttonBox</name></member>
+      <member refid="classserverTab_1dafcdbd1ec51c685bd226444f4194585" prot="private" virt="non-virtual"><scope>serverTab</scope><name>buttonClicked</name></member>
+      <member refid="classserverTab_10580a66fec46d3ffaf402deba898cc7d" prot="private" virt="non-virtual"><scope>serverTab</scope><name>eewsadm</name></member>
+      <member refid="classUi__serverTab_1bc62824280b821cbdaab260d77302c9d" prot="private" virt="non-virtual"><scope>serverTab</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__serverTab_1a2c4e37641b287103ef372d1679ab532" prot="private" virt="non-virtual"><scope>serverTab</scope><name>horizontalLayout_2</name></member>
+      <member refid="classUi__serverTab_1843afbd73d9cb083900dff46a1c1e45b" prot="private" virt="non-virtual"><scope>serverTab</scope><name>horizontalLayout_3</name></member>
+      <member refid="classUi__serverTab_1680a1c67d42df1ae59fc8c51cc533262" prot="private" virt="non-virtual"><scope>serverTab</scope><name>horizontalLayout_4</name></member>
+      <member refid="classUi__serverTab_1a3cf24adeabb266e66faeebb9b3ef7c8" prot="private" virt="non-virtual"><scope>serverTab</scope><name>horizontalSpacer</name></member>
+      <member refid="classUi__serverTab_15b8324cd0fe6f3cc218668fef783fac2" prot="private" virt="non-virtual"><scope>serverTab</scope><name>horizontalSpacer_2</name></member>
+      <member refid="classUi__serverTab_147c48a494d19078e8afed23b35d8e53d" prot="private" virt="non-virtual"><scope>serverTab</scope><name>horizontalSpacer_3</name></member>
+      <member refid="classUi__serverTab_10d7c68a654f080db8fe478116e72c5ec" prot="private" virt="non-virtual"><scope>serverTab</scope><name>label</name></member>
+      <member refid="classUi__serverTab_1745afa056da728051277ce7793d14ee5" prot="private" virt="non-virtual"><scope>serverTab</scope><name>label_3</name></member>
+      <member refid="classUi__serverTab_195b42005e4e0863bd2462998ad80022b" prot="private" virt="non-virtual"><scope>serverTab</scope><name>label_4</name></member>
+      <member refid="classserverTab_158a188c579e2a1a46c1fb11b1b0ea54b" prot="private" virt="non-virtual"><scope>serverTab</scope><name>loadFields</name></member>
+      <member refid="classUi__serverTab_1687696d265af77898e9902cafe16b47b" prot="private" virt="non-virtual"><scope>serverTab</scope><name>pluginDir</name></member>
+      <member refid="classUi__serverTab_1417f9bfaa4aa45fabfad1bffa58bdad3" prot="private" virt="non-virtual"><scope>serverTab</scope><name>retranslateUi</name></member>
+      <member refid="classserverTab_11cfcca91a347fb2cf17531d5a1d08651" prot="public" virt="non-virtual"><scope>serverTab</scope><name>serverTab</name></member>
+      <member refid="classUi__serverTab_11cfeec1e49b502fc775fc2e8945438cb" prot="private" virt="non-virtual"><scope>serverTab</scope><name>servicesPort</name></member>
+      <member refid="classUi__serverTab_1fc41e88afb0bb3fbba4e5808f14c9fbb" prot="private" virt="non-virtual"><scope>serverTab</scope><name>setupUi</name></member>
+      <member refid="classUi__serverTab_1c1a2a9ee461279fd48d0286f383c38e3" prot="private" virt="non-virtual"><scope>serverTab</scope><name>verticalLayout</name></member>
+      <member refid="classUi__serverTab_1c0d6f1018b043654a02a3c4f1e79c74a" prot="private" virt="non-virtual"><scope>serverTab</scope><name>verticalLayout_2</name></member>
+      <member refid="classUi__serverTab_198bfc6452568979827cd88b1c701d296" prot="private" virt="non-virtual"><scope>serverTab</scope><name>verticalLayout_3</name></member>
+      <member refid="classUi__serverTab_1d1d825321a00ee4d153ecff6df0253db" prot="private" virt="non-virtual"><scope>serverTab</scope><name>verticalSpacer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

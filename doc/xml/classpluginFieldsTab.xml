@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classpluginFieldsTab" kind="class" prot="public">
+    <compoundname>pluginFieldsTab</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">Ui::pluginFieldsTab</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpluginFieldsTab_1eebff52f7e8aa08b5194c1d0eeb43bb8" prot="private" static="no" mutable="no">
+        <type>eewsadmObject *</type>
+        <definition>eewsadmObject* pluginFieldsTab::eewsadm</definition>
+        <argsstring></argsstring>
+        <name>eewsadm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.h" line="37" bodyfile="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpluginFieldsTab_1e21c9a3be1821c346ba34ef7e9f84123" prot="private" static="no" mutable="no">
+        <type>QString *</type>
+        <definition>QString* pluginFieldsTab::pluginName</definition>
+        <argsstring></argsstring>
+        <name>pluginName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.h" line="38" bodyfile="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpluginFieldsTab_171f3e2b8c9781038d6a3dd27631fe548" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pluginFieldsTab::pluginFieldsTab</definition>
+        <argsstring>(QWidget *parent=0, eewsadmObject *eews=0, QString *pluginNameString=0)</argsstring>
+        <name>pluginFieldsTab</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>eewsadmObject *</type>
+          <declname>eews</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QString *</type>
+          <declname>pluginNameString</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.h" line="34" bodyfile="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.cpp" bodystart="30" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classpluginFieldsTab_1122a83ed6155a351429971df63f71757" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pluginFieldsTab::loadGeneralData</definition>
+        <argsstring>()</argsstring>
+        <name>loadGeneralData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.h" line="39" bodyfile="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.cpp" bodystart="44" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classpluginFieldsTab_170fbce4eb575639bfe2033d344e6e39f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pluginFieldsTab::createFields</definition>
+        <argsstring>()</argsstring>
+        <name>createFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.h" line="40" bodyfile="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.cpp" bodystart="60" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classpluginFieldsTab_1239070060764de53779eb985478b3e93" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pluginFieldsTab::startPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>startPlugin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.h" line="43" bodyfile="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.cpp" bodystart="103" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="slot" id="classpluginFieldsTab_1e4b0bcc5a0a47027d95d2884b14a95d5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pluginFieldsTab::stopPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>stopPlugin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.h" line="44" bodyfile="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.cpp" bodystart="111" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="slot" id="classpluginFieldsTab_17a07cd0691593a9fbdf3ae5a65b1dc12" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pluginFieldsTab::switchAutoload</definition>
+        <argsstring>()</argsstring>
+        <name>switchAutoload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.h" line="45" bodyfile="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.cpp" bodystart="119" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="142">
+        <label>Ui::pluginFieldsTab</label>
+        <childnode refid="143" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="141">
+        <label>pluginFieldsTab</label>
+        <childnode refid="142" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="143">
+        <label>Ui_pluginFieldsTab</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="145">
+        <label>Ui::pluginFieldsTab</label>
+        <childnode refid="146" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>eewsadmProxy</label>
+      </node>
+      <node id="147">
+        <label>eewsadmObject</label>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="144">
+        <label>pluginFieldsTab</label>
+        <childnode refid="145" relation="private-inheritance">
+        </childnode>
+        <childnode refid="147" relation="usage">
+          <edgelabel>eewsadm</edgelabel>
+        </childnode>
+      </node>
+      <node id="146">
+        <label>Ui_pluginFieldsTab</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.h" line="29" bodyfile="/home/enjolras/edujudge/eewsgui/src/pluginFieldsTab.h" bodystart="29" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classUi__pluginFieldsTab_10ca744325d10dba1424993ee252e07a2" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>autoloadCombo</name></member>
+      <member refid="classpluginFieldsTab_170fbce4eb575639bfe2033d344e6e39f" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>createFields</name></member>
+      <member refid="classUi__pluginFieldsTab_13a585b73b30e3ce83600cae5409ef4c4" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>descLabel</name></member>
+      <member refid="classpluginFieldsTab_1eebff52f7e8aa08b5194c1d0eeb43bb8" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>eewsadm</name></member>
+      <member refid="classUi__pluginFieldsTab_16436a2639bc7be43eaf0e61ee35a5a04" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>fieldsBox</name></member>
+      <member refid="classUi__pluginFieldsTab_11c8e363ac8136588481608ba2f5e03e7" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>groupBox</name></member>
+      <member refid="classUi__pluginFieldsTab_1169eaabe949ab9e4283387a31c37d436" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>groupBox_3</name></member>
+      <member refid="classUi__pluginFieldsTab_141110fbe1ddacbb015563f114bc1335a" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__pluginFieldsTab_1b1e300e061dfa0a5925ddc9e10052cbf" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>horizontalLayout_2</name></member>
+      <member refid="classUi__pluginFieldsTab_10df0df84616f52cea512e803b46dfd1e" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>horizontalLayout_3</name></member>
+      <member refid="classUi__pluginFieldsTab_113b219bba83d9e135f4dab1b772516ff" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>horizontalSpacer</name></member>
+      <member refid="classUi__pluginFieldsTab_1eadd44375ad2a2e621bc9fbd15768979" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>label_2</name></member>
+      <member refid="classpluginFieldsTab_1122a83ed6155a351429971df63f71757" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>loadGeneralData</name></member>
+      <member refid="classpluginFieldsTab_171f3e2b8c9781038d6a3dd27631fe548" prot="public" virt="non-virtual"><scope>pluginFieldsTab</scope><name>pluginFieldsTab</name></member>
+      <member refid="classpluginFieldsTab_1e21c9a3be1821c346ba34ef7e9f84123" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>pluginName</name></member>
+      <member refid="classUi__pluginFieldsTab_19b59adcb1e09427751139bd16e4f40bd" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>retranslateUi</name></member>
+      <member refid="classUi__pluginFieldsTab_184a8341783dcc3d62220664c69e8472b" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>setupUi</name></member>
+      <member refid="classUi__pluginFieldsTab_1910351dd68c3c739538935bcf8af759c" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>startButton</name></member>
+      <member refid="classpluginFieldsTab_1239070060764de53779eb985478b3e93" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>startPlugin</name></member>
+      <member refid="classUi__pluginFieldsTab_1814284828ecdc4cad5e1f1cb071b6ac4" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>stopButton</name></member>
+      <member refid="classpluginFieldsTab_1e4b0bcc5a0a47027d95d2884b14a95d5" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>stopPlugin</name></member>
+      <member refid="classpluginFieldsTab_17a07cd0691593a9fbdf3ae5a65b1dc12" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>switchAutoload</name></member>
+      <member refid="classUi__pluginFieldsTab_1d52b18f4ba879fb3882879043e55f3f2" prot="private" virt="non-virtual"><scope>pluginFieldsTab</scope><name>verticalLayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

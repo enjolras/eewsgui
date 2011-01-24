@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="structSOAP__ENV____Reason" kind="struct" prot="public">
+    <compoundname>SOAP_ENV__Reason</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSOAP__ENV____Reason_14e7a5850ce6987bf6d15bf9fea780ecd" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* SOAP_ENV__Reason::SOAP_ENV__Text</definition>
+        <argsstring></argsstring>
+        <name>SOAP_ENV__Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="405" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="405" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="403" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="402" bodyend="406"/>
+    <listofallmembers>
+      <member refid="structSOAP__ENV____Reason_14e7a5850ce6987bf6d15bf9fea780ecd" prot="public" virt="non-virtual"><scope>SOAP_ENV__Reason</scope><name>SOAP_ENV__Text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

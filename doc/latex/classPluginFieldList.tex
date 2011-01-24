@@ -1,0 +1,65 @@
+\section{PluginFieldList Class Reference}
+\label{classPluginFieldList}\index{PluginFieldList@{PluginFieldList}}
+{\tt \#include $<$eews.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+virtual int \textbf{soap\_\-type} () const \label{classPluginFieldList_7e8183be8e13e8672c4e146d9468303d}
+
+\item 
+virtual void \textbf{soap\_\-default} (struct {\bf soap} $\ast$)\label{classPluginFieldList_a58dc19bb7478ad7068dc61a4e740e9f}
+
+\item 
+virtual void \textbf{soap\_\-serialize} (struct {\bf soap} $\ast$) const \label{classPluginFieldList_6aaec26a67cd09c53c489b6a7c8401df}
+
+\item 
+virtual int \textbf{soap\_\-put} (struct {\bf soap} $\ast$, const char $\ast$, const char $\ast$) const \label{classPluginFieldList_fce6bec37db81c46f9b3ff7e2a419b99}
+
+\item 
+virtual int \textbf{soap\_\-out} (struct {\bf soap} $\ast$, const char $\ast$, int, const char $\ast$) const \label{classPluginFieldList_8ad2cf394c9612a6b9318f5790e02ca0}
+
+\item 
+virtual void $\ast$ \textbf{soap\_\-get} (struct {\bf soap} $\ast$, const char $\ast$, const char $\ast$)\label{classPluginFieldList_a93d44b89fa6a0e24a08d88ef2f27a87}
+
+\item 
+virtual void $\ast$ \textbf{soap\_\-in} (struct {\bf soap} $\ast$, const char $\ast$, const char $\ast$)\label{classPluginFieldList_592e94cb842c1532e5a284a0cf886a73}
+
+\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+{\bf ns2\_\-\_\-PluginField} $\ast$$\ast$ {\bf \_\-\_\-ptr}\label{classPluginFieldList_8faba492d2ae24a0dc33a76577d6b343}
+
+\begin{CompactList}\small\item\em Pointer to array of ns2\_\-\_\-PluginField$\ast$. \item\end{CompactList}\item 
+int {\bf \_\-\_\-size}\label{classPluginFieldList_113a936f7580e5063892b15e24c555dc}
+
+\begin{CompactList}\small\item\em Size of the dynamic array. \item\end{CompactList}\item 
+struct {\bf soap} $\ast$ {\bf soap}
+\begin{CompactList}\small\item\em Offset for partially transmitted arrays (uncomment only when required). \item\end{CompactList}\item 
+{\bf ns2\_\-\_\-PluginField} $\ast$$\ast$ \textbf{\_\-\_\-ptr}\label{classPluginFieldList_3313e5ff8216ef15267cc6a64ccb8ab5}
+
+\item 
+struct {\bf soap} $\ast$ \textbf{soap}\label{classPluginFieldList_1060c8d82fde631151327a677033f265}
+
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\char`\"{}urn:eewsadm\char`\"{}:\doxyref{PluginFieldList}{p.}{classPluginFieldList} is a complexType with complexContent restriction of SOAP-ENC:Array. SOAP encoded array of \char`\"{}urn:eewsadm\char`\"{}:PluginField 
+
+\subsection{Member Data Documentation}
+\index{PluginFieldList@{PluginFieldList}!soap@{soap}}
+\index{soap@{soap}!PluginFieldList@{PluginFieldList}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}struct {\bf soap}$\ast$ {\bf PluginFieldList::soap}\hspace{0.3cm}{\tt  [read]}}\label{classPluginFieldList_1060c8d82fde631151327a677033f265}
+
+
+Offset for partially transmitted arrays (uncomment only when required). 
+
+A handle to the soap struct that manages this instance (automatically set) 
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+edujudge/eewsgui/src/eews/eews.h\item 
+edujudge/eewsgui/src/eews/soapStub.h\item 
+edujudge/eewsgui/src/eews/soapC.cpp\end{CompactItemize}

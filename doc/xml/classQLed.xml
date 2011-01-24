@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classQLed" kind="class" prot="public">
+    <compoundname>QLed</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classQLed_1a0d1cc203e5b62fc085377c627b2e7ee" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool QLed::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/qled.h" line="47" bodyfile="/home/enjolras/edujudge/eewsgui/src/qled.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQLed_15e9e974f0e0e78f17c2bc3d731226f84" prot="protected" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor QLed::m_color</definition>
+        <argsstring></argsstring>
+        <name>m_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/qled.h" line="48" bodyfile="/home/enjolras/edujudge/eewsgui/src/qled.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classQLed_14448cf187420dcfbb0f0988d3510e695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QLed::QLed</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>QLed</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/qled.h" line="37" bodyfile="/home/enjolras/edujudge/eewsgui/src/qled.cpp" bodystart="31" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classQLed_11434303a8a075a6b9337a0615ff0e843" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool QLed::value</definition>
+        <argsstring>() const </argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/qled.h" line="38" bodyfile="/home/enjolras/edujudge/eewsgui/src/qled.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classQLed_1e6c8c73228dee5ed46fe93fb41be4593" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor QLed::color</definition>
+        <argsstring>() const </argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/qled.h" line="39" bodyfile="/home/enjolras/edujudge/eewsgui/src/qled.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classQLed_157192189605e078450c988b1ae4d383b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QLed::setValue</definition>
+        <argsstring>(bool)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>bool</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/qled.h" line="42" bodyfile="/home/enjolras/edujudge/eewsgui/src/qled.cpp" bodystart="82" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="slot" id="classQLed_1acd3380cc93b6f1d21466ff3592c973a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QLed::setColor</definition>
+        <argsstring>(QColor)</argsstring>
+        <name>setColor</name>
+        <param>
+          <type>QColor</type>
+          <defname>newColor</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/qled.h" line="43" bodyfile="/home/enjolras/edujudge/eewsgui/src/qled.cpp" bodystart="75" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="slot" id="classQLed_1eb0418815a9da1ba418c5550ce40fe51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QLed::toggleValue</definition>
+        <argsstring>()</argsstring>
+        <name>toggleValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/qled.h" line="44" bodyfile="/home/enjolras/edujudge/eewsgui/src/qled.cpp" bodystart="89" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classQLed_19a83546a3e7f84d150d1335f17c01cb4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QLed::paintEvent</definition>
+        <argsstring>(QPaintEvent *event)</argsstring>
+        <name>paintEvent</name>
+        <param>
+          <type>QPaintEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/qled.h" line="49" bodyfile="/home/enjolras/edujudge/eewsgui/src/qled.cpp" bodystart="40" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enjolras/edujudge/eewsgui/src/qled.h" line="33" bodyfile="/home/enjolras/edujudge/eewsgui/src/qled.h" bodystart="32" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classQLed_1e6c8c73228dee5ed46fe93fb41be4593" prot="public" virt="non-virtual"><scope>QLed</scope><name>color</name></member>
+      <member refid="classQLed_15e9e974f0e0e78f17c2bc3d731226f84" prot="protected" virt="non-virtual"><scope>QLed</scope><name>m_color</name></member>
+      <member refid="classQLed_1a0d1cc203e5b62fc085377c627b2e7ee" prot="protected" virt="non-virtual"><scope>QLed</scope><name>m_value</name></member>
+      <member refid="classQLed_19a83546a3e7f84d150d1335f17c01cb4" prot="protected" virt="non-virtual"><scope>QLed</scope><name>paintEvent</name></member>
+      <member refid="classQLed_14448cf187420dcfbb0f0988d3510e695" prot="public" virt="non-virtual"><scope>QLed</scope><name>QLed</name></member>
+      <member refid="classQLed_1acd3380cc93b6f1d21466ff3592c973a" prot="public" virt="non-virtual"><scope>QLed</scope><name>setColor</name></member>
+      <member refid="classQLed_157192189605e078450c988b1ae4d383b" prot="public" virt="non-virtual"><scope>QLed</scope><name>setValue</name></member>
+      <member refid="classQLed_1eb0418815a9da1ba418c5550ce40fe51" prot="public" virt="non-virtual"><scope>QLed</scope><name>toggleValue</name></member>
+      <member refid="classQLed_11434303a8a075a6b9337a0615ff0e843" prot="public" virt="non-virtual"><scope>QLed</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

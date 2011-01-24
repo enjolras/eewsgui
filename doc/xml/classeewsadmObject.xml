@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classeewsadmObject" kind="class" prot="public">
+    <compoundname>eewsadmObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">eewsadmProxy</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classeewsadmObject_1f1812139516f54a2610b77f8fa64ec99" prot="private" static="no" mutable="no">
+        <type>QByteArray</type>
+        <definition>QByteArray eewsadmObject::endPoint</definition>
+        <argsstring></argsstring>
+        <name>endPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eewsadmObject.h" line="40" bodyfile="/home/enjolras/edujudge/eewsgui/src/eewsadmObject.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classeewsadmObject_19887a5cd9d05ea1d3dbbb95ebdd94cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>eewsadmObject::eewsadmObject</definition>
+        <argsstring>()</argsstring>
+        <name>eewsadmObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eewsadmObject.h" line="35" bodyfile="/home/enjolras/edujudge/eewsgui/src/eewsadmObject.cpp" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmObject_1c7e0538361b8fb67901d8ce84c7d889d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void eewsadmObject::setURL</definition>
+        <argsstring>(QString URL)</argsstring>
+        <name>setURL</name>
+        <param>
+          <type>QString</type>
+          <declname>URL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eewsadmObject.h" line="36" bodyfile="/home/enjolras/edujudge/eewsgui/src/eewsadmObject.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmObject_158a8e931f2c3d3a6db5074616e9e3002" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QByteArray</type>
+        <definition>QByteArray eewsadmObject::getURL</definition>
+        <argsstring>()</argsstring>
+        <name>getURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eewsadmObject.h" line="37" bodyfile="/home/enjolras/edujudge/eewsgui/src/eewsadmObject.cpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="36">
+        <label>eewsadmProxy</label>
+      </node>
+      <node id="35">
+        <label>eewsadmObject</label>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="38">
+        <label>eewsadmProxy</label>
+      </node>
+      <node id="37">
+        <label>eewsadmObject</label>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eewsadmObject.h" line="30" bodyfile="/home/enjolras/edujudge/eewsgui/src/eewsadmObject.h" bodystart="30" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classeewsadmObject_19887a5cd9d05ea1d3dbbb95ebdd94cff" prot="public" virt="non-virtual"><scope>eewsadmObject</scope><name>eewsadmObject</name></member>
+      <member refid="classeewsadmProxy_16243b2139293783e8db141908d7529cc" prot="public" virt="non-virtual"><scope>eewsadmObject</scope><name>eewsadmProxy</name></member>
+      <member refid="classeewsadmProxy_1fd80fa3beed6c695ffa3dfa21a7d56e0" prot="public" virt="non-virtual"><scope>eewsadmObject</scope><name>eewsadmProxy</name></member>
+      <member refid="classeewsadmProxy_1bfabf514fb1dd08e309b68b0ed972321" prot="public" virt="non-virtual"><scope>eewsadmObject</scope><name>eewsadmProxy</name></member>
+      <member refid="classeewsadmProxy_109b6149b1c9e7bb98e19ddcb89600436" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>eewsadmProxy_init</name></member>
+      <member refid="classeewsadmObject_1f1812139516f54a2610b77f8fa64ec99" prot="private" virt="non-virtual"><scope>eewsadmObject</scope><name>endPoint</name></member>
+      <member refid="classeewsadmProxy_16258ed65f84b493a1c9f2da2187e7d1c" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>getPluginData</name></member>
+      <member refid="classeewsadmProxy_15705caf80c42f3a2cd5dd974777bdcf5" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>getPluginFieldList</name></member>
+      <member refid="classeewsadmProxy_1817faecde818c5c0c7f11eb84cfd7f9f" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>getPluginFieldValue</name></member>
+      <member refid="classeewsadmProxy_1eb04e9b87b7bd2b794553d5cf3ee14ee" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>getPluginList</name></member>
+      <member refid="classeewsadmProxy_1afe5ba1cfec46ae9589467790d0b0a3b" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>getServerConf</name></member>
+      <member refid="classeewsadmObject_158a8e931f2c3d3a6db5074616e9e3002" prot="public" virt="non-virtual"><scope>eewsadmObject</scope><name>getURL</name></member>
+      <member refid="classeewsadmProxy_1059a0ed70cfadb737cbfc1e072c9993a" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>setPluginAutoload</name></member>
+      <member refid="classeewsadmProxy_177f248c4a6bdb43ba5b3794473871e30" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>setPluginFieldValue</name></member>
+      <member refid="classeewsadmProxy_17486174acb8eb344f50cb4c583afb21d" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>setServerConf</name></member>
+      <member refid="classeewsadmObject_1c7e0538361b8fb67901d8ce84c7d889d" prot="public" virt="non-virtual"><scope>eewsadmObject</scope><name>setURL</name></member>
+      <member refid="classeewsadmProxy_176805a7ec3f06fa3089cc448fee97353" prot="public" virt="non-virtual"><scope>eewsadmObject</scope><name>soap_endpoint</name></member>
+      <member refid="classeewsadmProxy_143bc024f502182914c8f783286711808" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>soap_fault</name></member>
+      <member refid="classeewsadmProxy_1fed9743b8ae9cb005aec343d1d6d7cd6" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>soap_fault_detail</name></member>
+      <member refid="classeewsadmProxy_145eb246caa694dc7e2714c6de675124a" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>soap_fault_string</name></member>
+      <member refid="classeewsadmProxy_1df0e63c3250ab594aff5d197c2c11b45" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>soap_noheader</name></member>
+      <member refid="classeewsadmProxy_1e00dedd347d2ed894e9525fa8b56f5a1" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>startPlugin</name></member>
+      <member refid="classeewsadmProxy_13278b864f43de1bca145821fc02c0ef9" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>stopPlugin</name></member>
+      <member refid="classeewsadmProxy_13eaa2f564db92fd9b8db48cd7f369854" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>version</name></member>
+      <member refid="classeewsadmProxy_1cb38a8eb24a6da3ea3aadfa811ef4322" prot="public" virt="virtual"><scope>eewsadmObject</scope><name>~eewsadmProxy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

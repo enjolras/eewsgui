@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi__pluginTab" kind="class" prot="public">
+    <compoundname>Ui_pluginTab</compoundname>
+    <derivedcompoundref refid="classUi_1_1pluginTab" prot="public" virt="non-virtual">Ui::pluginTab</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classUi__pluginTab_13c321d263b44ea74a21eb1fc38a77458" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_pluginTab::verticalLayout</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_pluginTab.h" line="26" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_pluginTab.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__pluginTab_17a0f6cad88628d662b9b49f3a53a4038" prot="public" static="no" mutable="no">
+        <type>QTableWidget *</type>
+        <definition>QTableWidget* Ui_pluginTab::pluginTable</definition>
+        <argsstring></argsstring>
+        <name>pluginTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_pluginTab.h" line="27" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_pluginTab.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classUi__pluginTab_19fc624319bd7d1290abbc8f99d9198c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_pluginTab::setupUi</definition>
+        <argsstring>(QWidget *pluginTab)</argsstring>
+        <name>setupUi</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>pluginTab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_pluginTab.h" line="30" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_pluginTab.h" bodystart="29" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classUi__pluginTab_1332c95d9b662695c0857095e378831b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_pluginTab::retranslateUi</definition>
+        <argsstring>(QWidget *pluginTab)</argsstring>
+        <name>retranslateUi</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>pluginTab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_pluginTab.h" line="61" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_pluginTab.h" bodystart="60" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="238">
+        <label>Ui::pluginTab</label>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="237">
+        <label>Ui_pluginTab</label>
+      </node>
+      <node id="239">
+        <label>pluginTab</label>
+        <childnode refid="238" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_pluginTab.h" line="24" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_pluginTab.h" bodystart="23" bodyend="66"/>
+    <listofallmembers>
+      <member refid="classUi__pluginTab_17a0f6cad88628d662b9b49f3a53a4038" prot="public" virt="non-virtual"><scope>Ui_pluginTab</scope><name>pluginTable</name></member>
+      <member refid="classUi__pluginTab_1332c95d9b662695c0857095e378831b7" prot="public" virt="non-virtual"><scope>Ui_pluginTab</scope><name>retranslateUi</name></member>
+      <member refid="classUi__pluginTab_19fc624319bd7d1290abbc8f99d9198c1" prot="public" virt="non-virtual"><scope>Ui_pluginTab</scope><name>setupUi</name></member>
+      <member refid="classUi__pluginTab_13c321d263b44ea74a21eb1fc38a77458" prot="public" virt="non-virtual"><scope>Ui_pluginTab</scope><name>verticalLayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="structns2____getPluginFieldValue" kind="struct" prot="public">
+    <compoundname>ns2__getPluginFieldValue</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structns2____getPluginFieldValue_1420819573fb752f5f5187fd1749360e3" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ns2__getPluginFieldValue::uniqid</definition>
+        <argsstring></argsstring>
+        <name>uniqid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="337" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structns2____getPluginFieldValue_16ec0d3aea8cdd7cf6d3b6870b81e9a8f" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ns2__getPluginFieldValue::field</definition>
+        <argsstring></argsstring>
+        <name>field</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="338" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="338" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="335" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="334" bodyend="339"/>
+    <listofallmembers>
+      <member refid="structns2____getPluginFieldValue_16ec0d3aea8cdd7cf6d3b6870b81e9a8f" prot="public" virt="non-virtual"><scope>ns2__getPluginFieldValue</scope><name>field</name></member>
+      <member refid="structns2____getPluginFieldValue_1420819573fb752f5f5187fd1749360e3" prot="public" virt="non-virtual"><scope>ns2__getPluginFieldValue</scope><name>uniqid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

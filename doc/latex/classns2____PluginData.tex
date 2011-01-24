@@ -1,0 +1,98 @@
+\section{ns2\_\-\_\-PluginData Class Reference}
+\label{classns2____PluginData}\index{ns2\_\-\_\-PluginData@{ns2\_\-\_\-PluginData}}
+\char`\"{}urn:eewsadm\char`\"{}:PluginData is a complexType.  
+
+
+{\tt \#include $<$eews.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+virtual int \textbf{soap\_\-type} () const \label{classns2____PluginData_488f1f35d009313eb72dc55c41ccd535}
+
+\item 
+virtual void \textbf{soap\_\-default} (struct {\bf soap} $\ast$)\label{classns2____PluginData_104ce0e9dc389eb049db39528ce9366a}
+
+\item 
+virtual void \textbf{soap\_\-serialize} (struct {\bf soap} $\ast$) const \label{classns2____PluginData_480c130d926c096a78c59989edfe80db}
+
+\item 
+virtual int \textbf{soap\_\-put} (struct {\bf soap} $\ast$, const char $\ast$, const char $\ast$) const \label{classns2____PluginData_6d031fecad47f1c36691e87252454261}
+
+\item 
+virtual int \textbf{soap\_\-out} (struct {\bf soap} $\ast$, const char $\ast$, int, const char $\ast$) const \label{classns2____PluginData_5d1cc95ce40e3876e00cd4166ff5ef77}
+
+\item 
+virtual void $\ast$ \textbf{soap\_\-get} (struct {\bf soap} $\ast$, const char $\ast$, const char $\ast$)\label{classns2____PluginData_8c624f9b96a624fac287a519e8dbbbac}
+
+\item 
+virtual void $\ast$ \textbf{soap\_\-in} (struct {\bf soap} $\ast$, const char $\ast$, const char $\ast$)\label{classns2____PluginData_406213bbbf6011c62953a15c029035cf}
+
+\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+std::string {\bf uniqid}
+\begin{CompactList}\small\item\em Element uniqid of type xs:string. \item\end{CompactList}\item 
+std::string {\bf desc}
+\begin{CompactList}\small\item\em Element desc of type xs:string. \item\end{CompactList}\item 
+int {\bf version}
+\begin{CompactList}\small\item\em Element version of type xs:int. \item\end{CompactList}\item 
+int {\bf status}
+\begin{CompactList}\small\item\em Element status of type xs:int. \item\end{CompactList}\item 
+int {\bf autoload}
+\begin{CompactList}\small\item\em Element autoload of type xs:int. \item\end{CompactList}\item 
+struct {\bf soap} $\ast$ {\bf soap}\label{classns2____PluginData_9ff255f10f377c0770ac5844fedfa148}
+
+\begin{CompactList}\small\item\em A handle to the soap struct that manages this instance (automatically set). \item\end{CompactList}\item 
+struct {\bf soap} $\ast$ \textbf{soap}\label{classns2____PluginData_9ff255f10f377c0770ac5844fedfa148}
+
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\char`\"{}urn:eewsadm\char`\"{}:PluginData is a complexType. 
+
+\subsection{Member Data Documentation}
+\index{ns2\_\-\_\-PluginData@{ns2\_\-\_\-PluginData}!uniqid@{uniqid}}
+\index{uniqid@{uniqid}!ns2__PluginData@{ns2\_\-\_\-PluginData}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}std::string {\bf ns2\_\-\_\-PluginData::uniqid}}\label{classns2____PluginData_ee4b448721cd13b338ed888c17beb55c}
+
+
+Element uniqid of type xs:string. 
+
+Required element. \index{ns2\_\-\_\-PluginData@{ns2\_\-\_\-PluginData}!desc@{desc}}
+\index{desc@{desc}!ns2__PluginData@{ns2\_\-\_\-PluginData}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}std::string {\bf ns2\_\-\_\-PluginData::desc}}\label{classns2____PluginData_b7cd83e7b551cae3f4880265ddd47d6b}
+
+
+Element desc of type xs:string. 
+
+Required element. \index{ns2\_\-\_\-PluginData@{ns2\_\-\_\-PluginData}!version@{version}}
+\index{version@{version}!ns2__PluginData@{ns2\_\-\_\-PluginData}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}int {\bf ns2\_\-\_\-PluginData::version}}\label{classns2____PluginData_2fd51ec8f8e1b1a4115c873123655e89}
+
+
+Element version of type xs:int. 
+
+Required element. \index{ns2\_\-\_\-PluginData@{ns2\_\-\_\-PluginData}!status@{status}}
+\index{status@{status}!ns2__PluginData@{ns2\_\-\_\-PluginData}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}int {\bf ns2\_\-\_\-PluginData::status}}\label{classns2____PluginData_0bfbadb8a05267ee629c4815c4dbea1e}
+
+
+Element status of type xs:int. 
+
+Required element. \index{ns2\_\-\_\-PluginData@{ns2\_\-\_\-PluginData}!autoload@{autoload}}
+\index{autoload@{autoload}!ns2__PluginData@{ns2\_\-\_\-PluginData}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}int {\bf ns2\_\-\_\-PluginData::autoload}}\label{classns2____PluginData_60c36b10688e6139d0c00c45dbbabd7a}
+
+
+Element autoload of type xs:int. 
+
+Required element. 
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+edujudge/eewsgui/src/eews/eews.h\item 
+edujudge/eewsgui/src/eews/soapStub.h\item 
+edujudge/eewsgui/src/eews/soapC.cpp\end{CompactItemize}

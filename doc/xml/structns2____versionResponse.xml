@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="structns2____versionResponse" kind="struct" prot="public">
+    <compoundname>ns2__versionResponse</compoundname>
+    <includes refid="eews_8h" local="no">eews.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structns2____versionResponse_12c4ce12b51a02907702359cc64a79c1e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ns2__versionResponse::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="271" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structns2____versionResponse_1cc83969be4e7f64a5cf32321b246714d" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ns2__versionResponse::desc</definition>
+        <argsstring></argsstring>
+        <name>desc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="272" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Operation response struct &quot;ns2__versionResponse&quot; of service binding &quot;eewsadm&quot; operation &quot;ns2__version&quot;. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="270" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="269" bodyend="273"/>
+    <listofallmembers>
+      <member refid="structns2____versionResponse_1cc83969be4e7f64a5cf32321b246714d" prot="public" virt="non-virtual"><scope>ns2__versionResponse</scope><name>desc</name></member>
+      <member refid="structns2____versionResponse_12c4ce12b51a02907702359cc64a79c1e" prot="public" virt="non-virtual"><scope>ns2__versionResponse</scope><name>id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

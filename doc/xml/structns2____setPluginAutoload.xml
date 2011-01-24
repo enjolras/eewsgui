@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="structns2____setPluginAutoload" kind="struct" prot="public">
+    <compoundname>ns2__setPluginAutoload</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structns2____setPluginAutoload_1c6a9c26dcb82c8313ba7628093279a8a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ns2__setPluginAutoload::uniqid</definition>
+        <argsstring></argsstring>
+        <name>uniqid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="296" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structns2____setPluginAutoload_1b0986d02658f549ad05bdba021a67d4c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ns2__setPluginAutoload::autoload</definition>
+        <argsstring></argsstring>
+        <name>autoload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="297" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="294" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="293" bodyend="298"/>
+    <listofallmembers>
+      <member refid="structns2____setPluginAutoload_1b0986d02658f549ad05bdba021a67d4c" prot="public" virt="non-virtual"><scope>ns2__setPluginAutoload</scope><name>autoload</name></member>
+      <member refid="structns2____setPluginAutoload_1c6a9c26dcb82c8313ba7628093279a8a" prot="public" virt="non-virtual"><scope>ns2__setPluginAutoload</scope><name>uniqid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

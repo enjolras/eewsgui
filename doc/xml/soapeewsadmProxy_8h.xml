@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="soapeewsadmProxy_8h" kind="file">
+    <compoundname>soapeewsadmProxy.h</compoundname>
+    <includes refid="soapH_8h" local="yes">soapH.h</includes>
+    <includedby refid="eewsadmObject_8h" local="yes">edujudge/eewsgui/src/eewsadmObject.h</includedby>
+    <includedby refid="soapeewsadmProxy_8cpp" local="yes">edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp</includedby>
+    <incdepgraph>
+      <node id="120">
+        <label>edujudge/eewsgui/src/eews/soapeewsadmProxy.h</label>
+        <link refid="soapeewsadmProxy.h"/>
+        <childnode refid="121" relation="include">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>vector</label>
+      </node>
+      <node id="124">
+        <label>stdsoap2.h</label>
+      </node>
+      <node id="122">
+        <label>soapStub.h</label>
+        <link refid="soapStub_8h-source"/>
+        <childnode refid="123" relation="include">
+        </childnode>
+        <childnode refid="124" relation="include">
+        </childnode>
+      </node>
+      <node id="121">
+        <label>soapH.h</label>
+        <link refid="soapH_8h-source"/>
+        <childnode refid="122" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="126">
+        <label>edujudge/eewsgui/src/eewsadmObject.h</label>
+        <link refid="eewsadmObject_8h-source"/>
+      </node>
+      <node id="125">
+        <label>edujudge/eewsgui/src/eews/soapeewsadmProxy.h</label>
+        <link refid="soapeewsadmProxy.h"/>
+        <childnode refid="126" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classeewsadmProxy" prot="public">eewsadmProxy</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>soapeewsadmProxy.h</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/>Generated<sp/>by<sp/>gSOAP<sp/>2.7.9k<sp/>from<sp/>eews/eews.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/>Copyright(C)<sp/>2000-2007,<sp/>Robert<sp/>van<sp/>Engelen,<sp/>Genivia<sp/>Inc.<sp/>All<sp/>Rights<sp/>Reserved.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/>This<sp/>part<sp/>of<sp/>the<sp/>software<sp/>is<sp/>released<sp/>under<sp/>one<sp/>of<sp/>the<sp/>following<sp/>licenses:</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/>GPL,<sp/>the<sp/>gSOAP<sp/>public<sp/>license,<sp/>or<sp/>Genivia&apos;s<sp/>license<sp/>for<sp/>commercial<sp/>use.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>soapeewsadmProxy_H</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>soapeewsadmProxy_H</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;soapH.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">SOAP_CMAC<sp/>eewsadmProxy<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>soap</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*soap_endpoint;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>eewsadmProxy();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>eewsadmProxy(soap_mode<sp/>iomode);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>eewsadmProxy(soap_mode<sp/>imode,<sp/>soap_mode<sp/>omode);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~eewsadmProxy();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>eewsadmProxy_init(soap_mode<sp/>imode,<sp/>soap_mode<sp/>omode);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>soap_noheader();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SOAP_ENV__Fault<sp/>*soap_fault();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*soap_fault_string();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*soap_fault_detail();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getPluginData(std::string<sp/>uniqid,<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structns2____getPluginDataResponse" kindref="compound" tooltip="Operation response struct &amp;quot;ns2__getPluginDataResponse&amp;quot; of service binding...">ns2__getPluginDataResponse</ref><sp/>&amp;_param_1);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>version(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structns2____versionResponse" kindref="compound" tooltip="Operation response struct &amp;quot;ns2__versionResponse&amp;quot; of service binding &amp;quot;eewsadm&amp;quot;...">ns2__versionResponse</ref><sp/>&amp;_param_2);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getPluginList(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structns2____getPluginListResponse" kindref="compound" tooltip="Operation response struct &amp;quot;ns2__getPluginListResponse&amp;quot; of service binding...">ns2__getPluginListResponse</ref><sp/>&amp;_param_3);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getServerConf(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structns2____getServerConfResponse" kindref="compound" tooltip="Operation response struct &amp;quot;ns2__getServerConfResponse&amp;quot; of service binding...">ns2__getServerConfResponse</ref><sp/>&amp;_param_4);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>setServerConf(std::string<sp/>pluginDir,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>svcPort,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>admPort,<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structns2____setServerConfResponse" kindref="compound" tooltip="Operation response struct &amp;quot;ns2__setServerConfResponse&amp;quot; of service binding...">ns2__setServerConfResponse</ref><sp/>&amp;_param_5);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>startPlugin(std::string<sp/>uniqid,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;status);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>stopPlugin(std::string<sp/>uniqid,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;status);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>setPluginAutoload(std::string<sp/>uniqid,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>autoload,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;status);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getPluginFieldList(std::string<sp/>uniqid,<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structns2____getPluginFieldListResponse" kindref="compound" tooltip="Operation response struct &amp;quot;ns2__getPluginFieldListResponse&amp;quot; of service...">ns2__getPluginFieldListResponse</ref><sp/>&amp;_param_6);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getPluginFieldValue(std::string<sp/>uniqid,<sp/>std::string<sp/>field,<sp/>std::string<sp/>&amp;value);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>setPluginFieldValue(std::string<sp/>uniqid,<sp/>std::string<sp/>field,<sp/>std::string<sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;status);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h"/>
+  </compounddef>
+</doxygen>

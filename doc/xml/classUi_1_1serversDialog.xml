@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi_1_1serversDialog" kind="class" prot="public">
+    <compoundname>Ui::serversDialog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Ui_serversDialog</basecompoundref>
+    <derivedcompoundref refid="classserversDialog" prot="private" virt="non-virtual">serversDialog</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="180">
+        <label>serversDialog</label>
+        <childnode refid="178" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>Ui_serversDialog</label>
+      </node>
+      <node id="178">
+        <label>Ui::serversDialog</label>
+        <childnode refid="179" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="182">
+        <label>Ui_serversDialog</label>
+      </node>
+      <node id="181">
+        <label>Ui::serversDialog</label>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_serversDialog.h" line="113" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_serversDialog.h" bodystart="113" bodyend="113"/>
+    <listofallmembers>
+      <member refid="classUi__serversDialog_1c7896369d901d21879d4fb0554933ce6" prot="public" virt="non-virtual"><scope>Ui::serversDialog</scope><name>addButton</name></member>
+      <member refid="classUi__serversDialog_147156824cd72d1380e43394ea2da3c3c" prot="public" virt="non-virtual"><scope>Ui::serversDialog</scope><name>buttonBox</name></member>
+      <member refid="classUi__serversDialog_1a25a65576b01fce146eadf333069ab50" prot="public" virt="non-virtual"><scope>Ui::serversDialog</scope><name>editButton</name></member>
+      <member refid="classUi__serversDialog_198304a1d587773f3385b317b77bdc77b" prot="public" virt="non-virtual"><scope>Ui::serversDialog</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__serversDialog_11c6fdb7290f9cb62fefacad7f3fffab9" prot="public" virt="non-virtual"><scope>Ui::serversDialog</scope><name>removeButton</name></member>
+      <member refid="classUi__serversDialog_17a3e8e56c2149f39845be3732a0421cd" prot="public" virt="non-virtual"><scope>Ui::serversDialog</scope><name>retranslateUi</name></member>
+      <member refid="classUi__serversDialog_13794a76f065fb775ea5ee534fd24ab16" prot="public" virt="non-virtual"><scope>Ui::serversDialog</scope><name>serverList</name></member>
+      <member refid="classUi__serversDialog_10496760c7915e2dfd9392b019ea91977" prot="public" virt="non-virtual"><scope>Ui::serversDialog</scope><name>setupUi</name></member>
+      <member refid="classUi__serversDialog_17ab6b58b6b51dce90734bc68ffbfc6f8" prot="public" virt="non-virtual"><scope>Ui::serversDialog</scope><name>verticalLayout</name></member>
+      <member refid="classUi__serversDialog_1ce748d92ab0426dfe68fbd28685b7e82" prot="public" virt="non-virtual"><scope>Ui::serversDialog</scope><name>verticalSpacer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

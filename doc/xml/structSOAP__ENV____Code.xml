@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="structSOAP__ENV____Code" kind="struct" prot="public">
+    <compoundname>SOAP_ENV__Code</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSOAP__ENV____Code_1d4f98507b4108e305613e7621f18949c" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* SOAP_ENV__Code::SOAP_ENV__Value</definition>
+        <argsstring></argsstring>
+        <name>SOAP_ENV__Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="382" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSOAP__ENV____Code_12d44ac860b79956cff26131fa68b4c5a" prot="public" static="no" mutable="no">
+        <type>struct SOAP_ENV__Code *</type>
+        <definition>struct SOAP_ENV__Code* SOAP_ENV__Code::SOAP_ENV__Subcode</definition>
+        <argsstring></argsstring>
+        <name>SOAP_ENV__Subcode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="383" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="383" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="197">
+        <label>SOAP_ENV__Code</label>
+        <childnode refid="197" relation="usage">
+          <edgelabel>SOAP_ENV__Subcode</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="380" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="379" bodyend="384"/>
+    <listofallmembers>
+      <member refid="structSOAP__ENV____Code_12d44ac860b79956cff26131fa68b4c5a" prot="public" virt="non-virtual"><scope>SOAP_ENV__Code</scope><name>SOAP_ENV__Subcode</name></member>
+      <member refid="structSOAP__ENV____Code_1d4f98507b4108e305613e7621f18949c" prot="public" virt="non-virtual"><scope>SOAP_ENV__Code</scope><name>SOAP_ENV__Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

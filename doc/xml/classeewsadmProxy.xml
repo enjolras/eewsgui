@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classeewsadmProxy" kind="class" prot="public">
+    <compoundname>eewsadmProxy</compoundname>
+    <derivedcompoundref refid="classeewsadmObject" prot="public" virt="non-virtual">eewsadmObject</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classeewsadmProxy_176805a7ec3f06fa3089cc448fee97353" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* eewsadmProxy::soap_endpoint</definition>
+        <argsstring></argsstring>
+        <name>soap_endpoint</name>
+        <briefdescription>
+<para>Endpoint URL of service &apos;eewsadmProxy&apos; (change as needed). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="15" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classeewsadmProxy_16243b2139293783e8db141908d7529cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>eewsadmProxy::eewsadmProxy</definition>
+        <argsstring>()</argsstring>
+        <name>eewsadmProxy</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="17" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_1fd80fa3beed6c695ffa3dfa21a7d56e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>eewsadmProxy::eewsadmProxy</definition>
+        <argsstring>(soap_mode iomode)</argsstring>
+        <name>eewsadmProxy</name>
+        <param>
+          <type>soap_mode</type>
+          <declname>iomode</declname>
+        </param>
+        <briefdescription>
+<para>Constructor with engine input+output mode control. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="19" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_1bfabf514fb1dd08e309b68b0ed972321" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>eewsadmProxy::eewsadmProxy</definition>
+        <argsstring>(soap_mode imode, soap_mode omode)</argsstring>
+        <name>eewsadmProxy</name>
+        <param>
+          <type>soap_mode</type>
+          <declname>imode</declname>
+        </param>
+        <param>
+          <type>soap_mode</type>
+          <declname>omode</declname>
+        </param>
+        <briefdescription>
+<para>Constructor with engine input and output mode control. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="21" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_1cb38a8eb24a6da3ea3aadfa811ef4322" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>eewsadmProxy::~eewsadmProxy</definition>
+        <argsstring>()</argsstring>
+        <name>~eewsadmProxy</name>
+        <briefdescription>
+<para>Destructor frees deserialized data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="23" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="39" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_109b6149b1c9e7bb98e19ddcb89600436" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void eewsadmProxy::eewsadmProxy_init</definition>
+        <argsstring>(soap_mode imode, soap_mode omode)</argsstring>
+        <name>eewsadmProxy_init</name>
+        <param>
+          <type>soap_mode</type>
+          <declname>imode</declname>
+        </param>
+        <param>
+          <type>soap_mode</type>
+          <declname>omode</declname>
+        </param>
+        <briefdescription>
+<para>Initializer used by constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="25" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="22" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_1df0e63c3250ab594aff5d197c2c11b45" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void eewsadmProxy::soap_noheader</definition>
+        <argsstring>()</argsstring>
+        <name>soap_noheader</name>
+        <briefdescription>
+<para>Disables and removes SOAP Header from message. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="27" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_143bc024f502182914c8f783286711808" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>const SOAP_ENV__Fault *</type>
+        <definition>const SOAP_ENV__Fault * eewsadmProxy::soap_fault</definition>
+        <argsstring>()</argsstring>
+        <name>soap_fault</name>
+        <briefdescription>
+<para>Get SOAP Fault structure (NULL when absent). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="29" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_145eb246caa694dc7e2714c6de675124a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * eewsadmProxy::soap_fault_string</definition>
+        <argsstring>()</argsstring>
+        <name>soap_fault_string</name>
+        <briefdescription>
+<para>Get SOAP Fault string (NULL when absent). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="31" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_1fed9743b8ae9cb005aec343d1d6d7cd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * eewsadmProxy::soap_fault_detail</definition>
+        <argsstring>()</argsstring>
+        <name>soap_fault_detail</name>
+        <briefdescription>
+<para>Get SOAP Fault detail as string (NULL when absent). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="33" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_16258ed65f84b493a1c9f2da2187e7d1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int eewsadmProxy::getPluginData</definition>
+        <argsstring>(std::string uniqid, struct ns2__getPluginDataResponse &amp;_param_1)</argsstring>
+        <name>getPluginData</name>
+        <param>
+          <type>std::string</type>
+          <declname>uniqid</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structns2____getPluginDataResponse" kindref="compound">ns2__getPluginDataResponse</ref> &amp;</type>
+          <declname>_param_1</declname>
+        </param>
+        <briefdescription>
+<para>Web service operation &apos;getPluginData&apos; (return error code or SOAP_OK). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="35" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="58" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_13eaa2f564db92fd9b8db48cd7f369854" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int eewsadmProxy::version</definition>
+        <argsstring>(struct ns2__versionResponse &amp;_param_2)</argsstring>
+        <name>version</name>
+        <param>
+          <type>struct <ref refid="structns2____versionResponse" kindref="compound">ns2__versionResponse</ref> &amp;</type>
+          <declname>_param_2</declname>
+        </param>
+        <briefdescription>
+<para>Web service operation &apos;version&apos; (return error code or SOAP_OK). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="37" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="111" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_1eb04e9b87b7bd2b794553d5cf3ee14ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int eewsadmProxy::getPluginList</definition>
+        <argsstring>(struct ns2__getPluginListResponse &amp;_param_3)</argsstring>
+        <name>getPluginList</name>
+        <param>
+          <type>struct <ref refid="structns2____getPluginListResponse" kindref="compound">ns2__getPluginListResponse</ref> &amp;</type>
+          <declname>_param_3</declname>
+        </param>
+        <briefdescription>
+<para>Web service operation &apos;getPluginList&apos; (return error code or SOAP_OK). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="39" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="163" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_1afe5ba1cfec46ae9589467790d0b0a3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int eewsadmProxy::getServerConf</definition>
+        <argsstring>(struct ns2__getServerConfResponse &amp;_param_4)</argsstring>
+        <name>getServerConf</name>
+        <param>
+          <type>struct <ref refid="structns2____getServerConfResponse" kindref="compound">ns2__getServerConfResponse</ref> &amp;</type>
+          <declname>_param_4</declname>
+        </param>
+        <briefdescription>
+<para>Web service operation &apos;getServerConf&apos; (return error code or SOAP_OK). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="41" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="215" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_17486174acb8eb344f50cb4c583afb21d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int eewsadmProxy::setServerConf</definition>
+        <argsstring>(std::string pluginDir, int svcPort, int admPort, struct ns2__setServerConfResponse &amp;_param_5)</argsstring>
+        <name>setServerConf</name>
+        <param>
+          <type>std::string</type>
+          <declname>pluginDir</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>svcPort</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>admPort</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structns2____setServerConfResponse" kindref="compound">ns2__setServerConfResponse</ref> &amp;</type>
+          <declname>_param_5</declname>
+        </param>
+        <briefdescription>
+<para>Web service operation &apos;setServerConf&apos; (return error code or SOAP_OK). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="43" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="267" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_1e00dedd347d2ed894e9525fa8b56f5a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int eewsadmProxy::startPlugin</definition>
+        <argsstring>(std::string uniqid, int &amp;status)</argsstring>
+        <name>startPlugin</name>
+        <param>
+          <type>std::string</type>
+          <declname>uniqid</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+<para>Web service operation &apos;startPlugin&apos; (return error code or SOAP_OK). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="45" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="322" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_13278b864f43de1bca145821fc02c0ef9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int eewsadmProxy::stopPlugin</definition>
+        <argsstring>(std::string uniqid, int &amp;status)</argsstring>
+        <name>stopPlugin</name>
+        <param>
+          <type>std::string</type>
+          <declname>uniqid</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+<para>Web service operation &apos;stopPlugin&apos; (return error code or SOAP_OK). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="47" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="377" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_1059a0ed70cfadb737cbfc1e072c9993a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int eewsadmProxy::setPluginAutoload</definition>
+        <argsstring>(std::string uniqid, int autoload, int &amp;status)</argsstring>
+        <name>setPluginAutoload</name>
+        <param>
+          <type>std::string</type>
+          <declname>uniqid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>autoload</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+<para>Web service operation &apos;setPluginAutoload&apos; (return error code or SOAP_OK). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="49" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="432" bodyend="486"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_15705caf80c42f3a2cd5dd974777bdcf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int eewsadmProxy::getPluginFieldList</definition>
+        <argsstring>(std::string uniqid, struct ns2__getPluginFieldListResponse &amp;_param_6)</argsstring>
+        <name>getPluginFieldList</name>
+        <param>
+          <type>std::string</type>
+          <declname>uniqid</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structns2____getPluginFieldListResponse" kindref="compound">ns2__getPluginFieldListResponse</ref> &amp;</type>
+          <declname>_param_6</declname>
+        </param>
+        <briefdescription>
+<para>Web service operation &apos;getPluginFieldList&apos; (return error code or SOAP_OK). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="51" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="488" bodyend="539"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_1817faecde818c5c0c7f11eb84cfd7f9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int eewsadmProxy::getPluginFieldValue</definition>
+        <argsstring>(std::string uniqid, std::string field, std::string &amp;value)</argsstring>
+        <name>getPluginFieldValue</name>
+        <param>
+          <type>std::string</type>
+          <declname>uniqid</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Web service operation &apos;getPluginFieldValue&apos; (return error code or SOAP_OK). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="53" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="541" bodyend="595"/>
+      </memberdef>
+      <memberdef kind="function" id="classeewsadmProxy_177f248c4a6bdb43ba5b3794473871e30" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int eewsadmProxy::setPluginFieldValue</definition>
+        <argsstring>(std::string uniqid, std::string field, std::string value, int &amp;status)</argsstring>
+        <name>setPluginFieldValue</name>
+        <param>
+          <type>std::string</type>
+          <declname>uniqid</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+<para>Web service operation &apos;setPluginFieldValue&apos; (return error code or SOAP_OK). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="55" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.cpp" bodystart="597" bodyend="652"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>eewsadmProxy</label>
+      </node>
+      <node id="40">
+        <label>eewsadmObject</label>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" line="13" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapeewsadmProxy.h" bodystart="12" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classeewsadmProxy_16243b2139293783e8db141908d7529cc" prot="public" virt="non-virtual"><scope>eewsadmProxy</scope><name>eewsadmProxy</name></member>
+      <member refid="classeewsadmProxy_1fd80fa3beed6c695ffa3dfa21a7d56e0" prot="public" virt="non-virtual"><scope>eewsadmProxy</scope><name>eewsadmProxy</name></member>
+      <member refid="classeewsadmProxy_1bfabf514fb1dd08e309b68b0ed972321" prot="public" virt="non-virtual"><scope>eewsadmProxy</scope><name>eewsadmProxy</name></member>
+      <member refid="classeewsadmProxy_109b6149b1c9e7bb98e19ddcb89600436" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>eewsadmProxy_init</name></member>
+      <member refid="classeewsadmProxy_16258ed65f84b493a1c9f2da2187e7d1c" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>getPluginData</name></member>
+      <member refid="classeewsadmProxy_15705caf80c42f3a2cd5dd974777bdcf5" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>getPluginFieldList</name></member>
+      <member refid="classeewsadmProxy_1817faecde818c5c0c7f11eb84cfd7f9f" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>getPluginFieldValue</name></member>
+      <member refid="classeewsadmProxy_1eb04e9b87b7bd2b794553d5cf3ee14ee" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>getPluginList</name></member>
+      <member refid="classeewsadmProxy_1afe5ba1cfec46ae9589467790d0b0a3b" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>getServerConf</name></member>
+      <member refid="classeewsadmProxy_1059a0ed70cfadb737cbfc1e072c9993a" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>setPluginAutoload</name></member>
+      <member refid="classeewsadmProxy_177f248c4a6bdb43ba5b3794473871e30" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>setPluginFieldValue</name></member>
+      <member refid="classeewsadmProxy_17486174acb8eb344f50cb4c583afb21d" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>setServerConf</name></member>
+      <member refid="classeewsadmProxy_176805a7ec3f06fa3089cc448fee97353" prot="public" virt="non-virtual"><scope>eewsadmProxy</scope><name>soap_endpoint</name></member>
+      <member refid="classeewsadmProxy_143bc024f502182914c8f783286711808" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>soap_fault</name></member>
+      <member refid="classeewsadmProxy_1fed9743b8ae9cb005aec343d1d6d7cd6" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>soap_fault_detail</name></member>
+      <member refid="classeewsadmProxy_145eb246caa694dc7e2714c6de675124a" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>soap_fault_string</name></member>
+      <member refid="classeewsadmProxy_1df0e63c3250ab594aff5d197c2c11b45" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>soap_noheader</name></member>
+      <member refid="classeewsadmProxy_1e00dedd347d2ed894e9525fa8b56f5a1" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>startPlugin</name></member>
+      <member refid="classeewsadmProxy_13278b864f43de1bca145821fc02c0ef9" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>stopPlugin</name></member>
+      <member refid="classeewsadmProxy_13eaa2f564db92fd9b8db48cd7f369854" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>version</name></member>
+      <member refid="classeewsadmProxy_1cb38a8eb24a6da3ea3aadfa811ef4322" prot="public" virt="virtual"><scope>eewsadmProxy</scope><name>~eewsadmProxy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

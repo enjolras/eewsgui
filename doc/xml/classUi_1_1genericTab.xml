@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi_1_1genericTab" kind="class" prot="public">
+    <compoundname>Ui::genericTab</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Ui_genericTab</basecompoundref>
+    <derivedcompoundref refid="classgenericTab" prot="private" virt="non-virtual">genericTab</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="50">
+        <label>genericTab</label>
+        <childnode refid="48" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>Ui::genericTab</label>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>Ui_genericTab</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="51">
+        <label>Ui::genericTab</label>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>Ui_genericTab</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" line="93" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" bodystart="93" bodyend="93"/>
+    <listofallmembers>
+      <member refid="classUi__genericTab_164cc06b4c5999061a6a7b1f0987b1f94" prot="public" virt="non-virtual"><scope>Ui::genericTab</scope><name>centralWidget</name></member>
+      <member refid="classUi__genericTab_14d164af70b0941226dd562281e9d3853" prot="public" virt="non-virtual"><scope>Ui::genericTab</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__genericTab_178553b9b20e55471176030115c9ff035" prot="public" virt="non-virtual"><scope>Ui::genericTab</scope><name>horizontalSpacer</name></member>
+      <member refid="classUi__genericTab_14dd4b527e65051a866c408e21b2b887c" prot="public" virt="non-virtual"><scope>Ui::genericTab</scope><name>retranslateUi</name></member>
+      <member refid="classUi__genericTab_1dddff70814a8e39463a5094bc4e63f4a" prot="public" virt="non-virtual"><scope>Ui::genericTab</scope><name>setupUi</name></member>
+      <member refid="classUi__genericTab_15e2519979c70eedfee606d3abc7e1e2d" prot="public" virt="non-virtual"><scope>Ui::genericTab</scope><name>tabTitle</name></member>
+      <member refid="classUi__genericTab_16df550176b078692d0c946b8d31c0fb3" prot="public" virt="non-virtual"><scope>Ui::genericTab</scope><name>verticalLayout</name></member>
+      <member refid="classUi__genericTab_11e86cf2882d788cf3e4bd0a27428a3c0" prot="public" virt="non-virtual"><scope>Ui::genericTab</scope><name>verticalSpacer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

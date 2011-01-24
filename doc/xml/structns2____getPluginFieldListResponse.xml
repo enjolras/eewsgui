@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="structns2____getPluginFieldListResponse" kind="struct" prot="public">
+    <compoundname>ns2__getPluginFieldListResponse</compoundname>
+    <includes refid="eews_8h" local="no">eews.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structns2____getPluginFieldListResponse_11f9710ec51e9eb4c8432d08be8e87608" prot="public" static="no" mutable="no">
+        <type><ref refid="classPluginFieldList" kindref="compound">PluginFieldList</ref> *</type>
+        <definition>PluginFieldList* ns2__getPluginFieldListResponse::pluginFieldList</definition>
+        <argsstring></argsstring>
+        <name>pluginFieldList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="681" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="681" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structns2____getPluginFieldListResponse_11f9710ec51e9eb4c8432d08be8e87608" prot="public" static="no" mutable="no">
+        <type><ref refid="classPluginFieldList" kindref="compound">PluginFieldList</ref> *</type>
+        <definition>PluginFieldList* ns2__getPluginFieldListResponse::pluginFieldList</definition>
+        <argsstring></argsstring>
+        <name>pluginFieldList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="307" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Operation response struct &quot;ns2__getPluginFieldListResponse&quot; of service binding &quot;eewsadm&quot; operation &quot;ns2__getPluginFieldList&quot;. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="94">
+        <label>PluginFieldList</label>
+        <link refid="classPluginFieldList"/>
+        <childnode refid="95" relation="usage">
+          <edgelabel>__ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="95">
+        <label>ns2__PluginField</label>
+        <link refid="classns2____PluginField"/>
+      </node>
+      <node id="93">
+        <label>ns2__getPluginFieldListResponse</label>
+        <link refid="structns2____getPluginFieldListResponse"/>
+        <childnode refid="94" relation="usage">
+          <edgelabel>pluginFieldList</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="680" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="679" bodyend="682"/>
+    <listofallmembers>
+      <member refid="structns2____getPluginFieldListResponse_11f9710ec51e9eb4c8432d08be8e87608" prot="public" virt="non-virtual"><scope>ns2__getPluginFieldListResponse</scope><name>pluginFieldList</name></member>
+      <member refid="structns2____getPluginFieldListResponse_11f9710ec51e9eb4c8432d08be8e87608" prot="public" virt="non-virtual"><scope>ns2__getPluginFieldListResponse</scope><name>pluginFieldList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

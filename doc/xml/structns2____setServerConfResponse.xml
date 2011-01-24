@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="structns2____setServerConfResponse" kind="struct" prot="public">
+    <compoundname>ns2__setServerConfResponse</compoundname>
+    <includes refid="eews_8h" local="no">eews.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structns2____setServerConfResponse_1a1ec95c03b3d551ccc2963fa7695c1f8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ns2__setServerConfResponse::pluginDirStatus</definition>
+        <argsstring></argsstring>
+        <name>pluginDirStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="445" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structns2____setServerConfResponse_1ef8eaedb6f964b15fbd920d965dbc02c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ns2__setServerConfResponse::svcPortStatus</definition>
+        <argsstring></argsstring>
+        <name>svcPortStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="446" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structns2____setServerConfResponse_1b73c41c600fb5a7c190bbb8b0c11f379" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ns2__setServerConfResponse::admPortStatus</definition>
+        <argsstring></argsstring>
+        <name>admPortStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="447" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="447" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Operation response struct &quot;ns2__setServerConfResponse&quot; of service binding &quot;eewsadm&quot; operation &quot;ns2__setServerConf&quot;. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="444" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="443" bodyend="448"/>
+    <listofallmembers>
+      <member refid="structns2____setServerConfResponse_1b73c41c600fb5a7c190bbb8b0c11f379" prot="public" virt="non-virtual"><scope>ns2__setServerConfResponse</scope><name>admPortStatus</name></member>
+      <member refid="structns2____setServerConfResponse_1a1ec95c03b3d551ccc2963fa7695c1f8" prot="public" virt="non-virtual"><scope>ns2__setServerConfResponse</scope><name>pluginDirStatus</name></member>
+      <member refid="structns2____setServerConfResponse_1ef8eaedb6f964b15fbd920d965dbc02c" prot="public" virt="non-virtual"><scope>ns2__setServerConfResponse</scope><name>svcPortStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

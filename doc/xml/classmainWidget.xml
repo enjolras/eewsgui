@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classmainWidget" kind="class" prot="public">
+    <compoundname>mainWidget</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">Ui::mainWidget</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classmainWidget_1d7a820ba997d0152fe00d80822ae52af" prot="protected" static="no" mutable="no">
+        <type>eewsadmObject *</type>
+        <definition>eewsadmObject* mainWidget::eewsadm</definition>
+        <argsstring></argsstring>
+        <name>eewsadm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/mainWidget.h" line="36" bodyfile="/home/enjolras/edujudge/eewsgui/src/mainWidget.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmainWidget_138f99a4abc747400603f27f806ae8017" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWidget::mainWidget</definition>
+        <argsstring>(QWidget *parent=0, eewsadmObject *eews=0)</argsstring>
+        <name>mainWidget</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>eewsadmObject *</type>
+          <declname>eews</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/mainWidget.h" line="33" bodyfile="/home/enjolras/edujudge/eewsgui/src/mainWidget.cpp" bodystart="28" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classmainWidget_1008b7d2bd570cc15ab5c8c659466cf45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mainWidget::statusBarRelaySlot</definition>
+        <argsstring>(QString *message)</argsstring>
+        <name>statusBarRelaySlot</name>
+        <param>
+          <type>QString *</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/mainWidget.h" line="39" bodyfile="/home/enjolras/edujudge/eewsgui/src/mainWidget.cpp" bodystart="52" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="slot" id="classmainWidget_163e290c8968b3e2c465f332d1db9afa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mainWidget::addPluginTab</definition>
+        <argsstring>(QString *pluginName)</argsstring>
+        <name>addPluginTab</name>
+        <param>
+          <type>QString *</type>
+          <declname>pluginName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/mainWidget.h" line="40" bodyfile="/home/enjolras/edujudge/eewsgui/src/mainWidget.cpp" bodystart="58" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classmainWidget_11c92c208095da08e419ac4bbc6abaacb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mainWidget::statusBarRelaySignal</definition>
+        <argsstring>(QString *message)</argsstring>
+        <name>statusBarRelaySignal</name>
+        <param>
+          <type>QString *</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/mainWidget.h" line="43" bodyfile="/home/enjolras/edujudge/eewsgui/src/moc_mainWidget.cpp" bodystart="81" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="53">
+        <label>mainWidget</label>
+        <childnode refid="54" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>Ui_mainWidget</label>
+      </node>
+      <node id="54">
+        <label>Ui::mainWidget</label>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="56">
+        <label>mainWidget</label>
+        <childnode refid="57" relation="private-inheritance">
+        </childnode>
+        <childnode refid="59" relation="usage">
+          <edgelabel>eewsadm</edgelabel>
+        </childnode>
+      </node>
+      <node id="60">
+        <label>eewsadmProxy</label>
+      </node>
+      <node id="59">
+        <label>eewsadmObject</label>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>Ui_mainWidget</label>
+      </node>
+      <node id="57">
+        <label>Ui::mainWidget</label>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/mainWidget.h" line="28" bodyfile="/home/enjolras/edujudge/eewsgui/src/mainWidget.h" bodystart="28" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classmainWidget_163e290c8968b3e2c465f332d1db9afa2" prot="public" virt="non-virtual"><scope>mainWidget</scope><name>addPluginTab</name></member>
+      <member refid="classmainWidget_1d7a820ba997d0152fe00d80822ae52af" prot="protected" virt="non-virtual"><scope>mainWidget</scope><name>eewsadm</name></member>
+      <member refid="classUi__mainWidget_1845b888fbf23ab9598849df43ff89a0c" prot="private" virt="non-virtual"><scope>mainWidget</scope><name>gridLayout</name></member>
+      <member refid="classmainWidget_138f99a4abc747400603f27f806ae8017" prot="public" virt="non-virtual"><scope>mainWidget</scope><name>mainWidget</name></member>
+      <member refid="classUi__mainWidget_1b8c6a6341f53d719369c18c7cd0c9064" prot="private" virt="non-virtual"><scope>mainWidget</scope><name>retranslateUi</name></member>
+      <member refid="classUi__mainWidget_19f86f71f868c031af85987641c3a2324" prot="private" virt="non-virtual"><scope>mainWidget</scope><name>setupUi</name></member>
+      <member refid="classmainWidget_11c92c208095da08e419ac4bbc6abaacb" prot="public" virt="non-virtual"><scope>mainWidget</scope><name>statusBarRelaySignal</name></member>
+      <member refid="classmainWidget_1008b7d2bd570cc15ab5c8c659466cf45" prot="public" virt="non-virtual"><scope>mainWidget</scope><name>statusBarRelaySlot</name></member>
+      <member refid="classUi__mainWidget_1553753d9888d966b11aee172de850580" prot="private" virt="non-virtual"><scope>mainWidget</scope><name>tab</name></member>
+      <member refid="classUi__mainWidget_1f8dcbb0221a7c9c89d866eceb9557fc2" prot="private" virt="non-virtual"><scope>mainWidget</scope><name>tabWidget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

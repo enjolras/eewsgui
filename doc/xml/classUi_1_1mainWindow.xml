@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi_1_1mainWindow" kind="class" prot="public">
+    <compoundname>Ui::mainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Ui_mainWindow</basecompoundref>
+    <derivedcompoundref refid="classmainWindow" prot="private" virt="non-virtual">mainWindow</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="80">
+        <label>Ui::mainWindow</label>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>mainWindow</label>
+        <childnode refid="80" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>Ui_mainWindow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="83">
+        <label>Ui::mainWindow</label>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>Ui_mainWindow</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" line="90" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" bodystart="90" bodyend="90"/>
+    <listofallmembers>
+      <member refid="classUi__mainWindow_1d7c9dbffdf096c7068be6b136f053975" prot="public" virt="non-virtual"><scope>Ui::mainWindow</scope><name>action_About</name></member>
+      <member refid="classUi__mainWindow_1dd30d67e123e3379e7fff5056fc2ad01" prot="public" virt="non-virtual"><scope>Ui::mainWindow</scope><name>action_Quit</name></member>
+      <member refid="classUi__mainWindow_112a0f08eb19c9847fd0fb0e2823eeb65" prot="public" virt="non-virtual"><scope>Ui::mainWindow</scope><name>action_Server</name></member>
+      <member refid="classUi__mainWindow_18578bb15fb766da0afca5d8bd88c752e" prot="public" virt="non-virtual"><scope>Ui::mainWindow</scope><name>centralwidget</name></member>
+      <member refid="classUi__mainWindow_17f147d69b18576eba462406395983a73" prot="public" virt="non-virtual"><scope>Ui::mainWindow</scope><name>menu_File</name></member>
+      <member refid="classUi__mainWindow_15074379206c5cc604f088f4be86e571b" prot="public" virt="non-virtual"><scope>Ui::mainWindow</scope><name>menu_Help</name></member>
+      <member refid="classUi__mainWindow_1c1a654b71768b472b80d5f1dc6984036" prot="public" virt="non-virtual"><scope>Ui::mainWindow</scope><name>menubar</name></member>
+      <member refid="classUi__mainWindow_119d8fdf41c89c4e126c91765c5909d0e" prot="public" virt="non-virtual"><scope>Ui::mainWindow</scope><name>retranslateUi</name></member>
+      <member refid="classUi__mainWindow_1e7d1841a86020e8a4c12beb958596629" prot="public" virt="non-virtual"><scope>Ui::mainWindow</scope><name>setupUi</name></member>
+      <member refid="classUi__mainWindow_190f9676e8f03d28b20dcca8b3a60551d" prot="public" virt="non-virtual"><scope>Ui::mainWindow</scope><name>statusbar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

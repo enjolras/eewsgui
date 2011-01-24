@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classpluginTab" kind="class" prot="public">
+    <compoundname>pluginTab</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">Ui::pluginTab</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpluginTab_1195987c04c4c65e45461d277925171f1" prot="private" static="no" mutable="no">
+        <type>eewsadmObject *</type>
+        <definition>eewsadmObject* pluginTab::eewsadm</definition>
+        <argsstring></argsstring>
+        <name>eewsadm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/pluginTab.h" line="37" bodyfile="/home/enjolras/edujudge/eewsgui/src/pluginTab.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpluginTab_1768e2d2085507afcda32cbec01bfcebf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pluginTab::pluginTab</definition>
+        <argsstring>(QWidget *parent=0, eewsadmObject *eews=0)</argsstring>
+        <name>pluginTab</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>eewsadmObject *</type>
+          <declname>eews</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/pluginTab.h" line="33" bodyfile="/home/enjolras/edujudge/eewsgui/src/pluginTab.cpp" bodystart="34" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classpluginTab_12214cd362260a1403a2e4afe9474ac90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pluginTab::updatePluginList</definition>
+        <argsstring>()</argsstring>
+        <name>updatePluginList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/pluginTab.h" line="34" bodyfile="/home/enjolras/edujudge/eewsgui/src/pluginTab.cpp" bodystart="47" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classpluginTab_15dd4872832c0428f7afa36001f13a82a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pluginTab::addPluginTab</definition>
+        <argsstring>(QString *pluginName)</argsstring>
+        <name>addPluginTab</name>
+        <param>
+          <type>QString *</type>
+          <declname>pluginName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/pluginTab.h" line="40" bodyfile="/home/enjolras/edujudge/eewsgui/src/moc_pluginTab.cpp" bodystart="73" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="158">
+        <label>Ui::pluginTab</label>
+        <childnode refid="159" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>Ui_pluginTab</label>
+      </node>
+      <node id="157">
+        <label>pluginTab</label>
+        <childnode refid="158" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="164">
+        <label>eewsadmProxy</label>
+      </node>
+      <node id="161">
+        <label>Ui::pluginTab</label>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>eewsadmObject</label>
+        <childnode refid="164" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="162">
+        <label>Ui_pluginTab</label>
+      </node>
+      <node id="160">
+        <label>pluginTab</label>
+        <childnode refid="161" relation="private-inheritance">
+        </childnode>
+        <childnode refid="163" relation="usage">
+          <edgelabel>eewsadm</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/pluginTab.h" line="28" bodyfile="/home/enjolras/edujudge/eewsgui/src/pluginTab.h" bodystart="28" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classpluginTab_15dd4872832c0428f7afa36001f13a82a" prot="public" virt="non-virtual"><scope>pluginTab</scope><name>addPluginTab</name></member>
+      <member refid="classpluginTab_1195987c04c4c65e45461d277925171f1" prot="private" virt="non-virtual"><scope>pluginTab</scope><name>eewsadm</name></member>
+      <member refid="classpluginTab_1768e2d2085507afcda32cbec01bfcebf" prot="public" virt="non-virtual"><scope>pluginTab</scope><name>pluginTab</name></member>
+      <member refid="classUi__pluginTab_17a0f6cad88628d662b9b49f3a53a4038" prot="private" virt="non-virtual"><scope>pluginTab</scope><name>pluginTable</name></member>
+      <member refid="classUi__pluginTab_1332c95d9b662695c0857095e378831b7" prot="private" virt="non-virtual"><scope>pluginTab</scope><name>retranslateUi</name></member>
+      <member refid="classUi__pluginTab_19fc624319bd7d1290abbc8f99d9198c1" prot="private" virt="non-virtual"><scope>pluginTab</scope><name>setupUi</name></member>
+      <member refid="classpluginTab_12214cd362260a1403a2e4afe9474ac90" prot="public" virt="non-virtual"><scope>pluginTab</scope><name>updatePluginList</name></member>
+      <member refid="classUi__pluginTab_13c321d263b44ea74a21eb1fc38a77458" prot="private" virt="non-virtual"><scope>pluginTab</scope><name>verticalLayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

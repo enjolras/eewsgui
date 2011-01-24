@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>eewsadm Definitions</title>
+    <detaileddescription>
+<sect1 id="index_1eewsadm_bindings">
+<title>Bindings</title>
+<para><itemizedlist>
+<listitem><para><ref refid="eewsadm" kindref="compound">Binding &quot;eewsadm&quot;</ref> </para></listitem></itemizedlist>
+</para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

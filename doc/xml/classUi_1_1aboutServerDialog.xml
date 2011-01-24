@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi_1_1aboutServerDialog" kind="class" prot="public">
+    <compoundname>Ui::aboutServerDialog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Ui_aboutServerDialog</basecompoundref>
+    <derivedcompoundref refid="classaboutServerDialog" prot="private" virt="non-virtual">aboutServerDialog</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>Ui::aboutServerDialog</label>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>aboutServerDialog</label>
+        <childnode refid="8" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Ui_aboutServerDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>Ui::aboutServerDialog</label>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Ui_aboutServerDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="129" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="129" bodyend="129"/>
+    <listofallmembers>
+      <member refid="classUi__aboutServerDialog_1e7ae84fbfc6471fb4b8486d5b9cc5b39" prot="public" virt="non-virtual"><scope>Ui::aboutServerDialog</scope><name>buttonBox</name></member>
+      <member refid="classUi__aboutServerDialog_1cabba188080f8409dfe5eded96289815" prot="public" virt="non-virtual"><scope>Ui::aboutServerDialog</scope><name>descBrowser</name></member>
+      <member refid="classUi__aboutServerDialog_1738995f1fe19f4e2bb9baa85f6fde0e8" prot="public" virt="non-virtual"><scope>Ui::aboutServerDialog</scope><name>gridLayout</name></member>
+      <member refid="classUi__aboutServerDialog_1fe38ac2a4da0863fad46682282fa9d54" prot="public" virt="non-virtual"><scope>Ui::aboutServerDialog</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__aboutServerDialog_18accd82f558564e5f90ba0ff54e40f77" prot="public" virt="non-virtual"><scope>Ui::aboutServerDialog</scope><name>label</name></member>
+      <member refid="classUi__aboutServerDialog_1d252c60040bf336740124f088139c0b1" prot="public" virt="non-virtual"><scope>Ui::aboutServerDialog</scope><name>label_2</name></member>
+      <member refid="classUi__aboutServerDialog_16bd2792a1299846c9cabf369887b754a" prot="public" virt="non-virtual"><scope>Ui::aboutServerDialog</scope><name>label_3</name></member>
+      <member refid="classUi__aboutServerDialog_191cea48ff5b2ea9be7d9ae06f323ad1c" prot="public" virt="non-virtual"><scope>Ui::aboutServerDialog</scope><name>protocolLabel</name></member>
+      <member refid="classUi__aboutServerDialog_17ccbf8b4c70c31bd21057f0e9364f263" prot="public" virt="non-virtual"><scope>Ui::aboutServerDialog</scope><name>retranslateUi</name></member>
+      <member refid="classUi__aboutServerDialog_1dbe0b2653caabc56203d623959263f97" prot="public" virt="non-virtual"><scope>Ui::aboutServerDialog</scope><name>setupUi</name></member>
+      <member refid="classUi__aboutServerDialog_1fa24c8010dfdab8d8c59aa87e2be0434" prot="public" virt="non-virtual"><scope>Ui::aboutServerDialog</scope><name>urlLabel</name></member>
+      <member refid="classUi__aboutServerDialog_18447f573c1038c02467fea13c70fe40d" prot="public" virt="non-virtual"><scope>Ui::aboutServerDialog</scope><name>verticalLayout</name></member>
+      <member refid="classUi__aboutServerDialog_17be3b841dd8cb0d925b1c8e0948f4077" prot="public" virt="non-virtual"><scope>Ui::aboutServerDialog</scope><name>verticalLayout_2</name></member>
+      <member refid="classUi__aboutServerDialog_1d6a58eb8dc85daab7d37258892f90b5b" prot="public" virt="non-virtual"><scope>Ui::aboutServerDialog</scope><name>verticalSpacer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="structns2____getPluginListResponse" kind="struct" prot="public">
+    <compoundname>ns2__getPluginListResponse</compoundname>
+    <includes refid="eews_8h" local="no">eews.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structns2____getPluginListResponse_10083b2c87a18f28cac913884556d29f3" prot="public" static="no" mutable="no">
+        <type><ref refid="classPluginList" kindref="compound">PluginList</ref> *</type>
+        <definition>PluginList* ns2__getPluginListResponse::pluginList</definition>
+        <argsstring></argsstring>
+        <name>pluginList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="329" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structns2____getPluginListResponse_10083b2c87a18f28cac913884556d29f3" prot="public" static="no" mutable="no">
+        <type><ref refid="classPluginList" kindref="compound">PluginList</ref> *</type>
+        <definition>PluginList* ns2__getPluginListResponse::pluginList</definition>
+        <argsstring></argsstring>
+        <name>pluginList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" line="176" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/soapStub.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Operation response struct &quot;ns2__getPluginListResponse&quot; of service binding &quot;eewsadm&quot; operation &quot;ns2__getPluginList&quot;. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="105">
+        <label>ns2__PluginData</label>
+        <link refid="classns2____PluginData"/>
+      </node>
+      <node id="104">
+        <label>PluginList</label>
+        <link refid="classPluginList"/>
+        <childnode refid="105" relation="usage">
+          <edgelabel>__ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="103">
+        <label>ns2__getPluginListResponse</label>
+        <link refid="structns2____getPluginListResponse"/>
+        <childnode refid="104" relation="usage">
+          <edgelabel>pluginList</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" line="328" bodyfile="/home/enjolras/edujudge/eewsgui/src/eews/eews.h" bodystart="327" bodyend="330"/>
+    <listofallmembers>
+      <member refid="structns2____getPluginListResponse_10083b2c87a18f28cac913884556d29f3" prot="public" virt="non-virtual"><scope>ns2__getPluginListResponse</scope><name>pluginList</name></member>
+      <member refid="structns2____getPluginListResponse_10083b2c87a18f28cac913884556d29f3" prot="public" virt="non-virtual"><scope>ns2__getPluginListResponse</scope><name>pluginList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

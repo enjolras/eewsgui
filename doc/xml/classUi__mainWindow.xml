@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi__mainWindow" kind="class" prot="public">
+    <compoundname>Ui_mainWindow</compoundname>
+    <derivedcompoundref refid="classUi_1_1mainWindow" prot="public" virt="non-virtual">Ui::mainWindow</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classUi__mainWindow_1dd30d67e123e3379e7fff5056fc2ad01" prot="public" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* Ui_mainWindow::action_Quit</definition>
+        <argsstring></argsstring>
+        <name>action_Quit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" line="28" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__mainWindow_1d7c9dbffdf096c7068be6b136f053975" prot="public" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* Ui_mainWindow::action_About</definition>
+        <argsstring></argsstring>
+        <name>action_About</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" line="29" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__mainWindow_112a0f08eb19c9847fd0fb0e2823eeb65" prot="public" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* Ui_mainWindow::action_Server</definition>
+        <argsstring></argsstring>
+        <name>action_Server</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" line="30" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__mainWindow_18578bb15fb766da0afca5d8bd88c752e" prot="public" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* Ui_mainWindow::centralwidget</definition>
+        <argsstring></argsstring>
+        <name>centralwidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" line="31" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__mainWindow_1c1a654b71768b472b80d5f1dc6984036" prot="public" static="no" mutable="no">
+        <type>QMenuBar *</type>
+        <definition>QMenuBar* Ui_mainWindow::menubar</definition>
+        <argsstring></argsstring>
+        <name>menubar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" line="32" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__mainWindow_17f147d69b18576eba462406395983a73" prot="public" static="no" mutable="no">
+        <type>QMenu *</type>
+        <definition>QMenu* Ui_mainWindow::menu_File</definition>
+        <argsstring></argsstring>
+        <name>menu_File</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" line="33" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__mainWindow_15074379206c5cc604f088f4be86e571b" prot="public" static="no" mutable="no">
+        <type>QMenu *</type>
+        <definition>QMenu* Ui_mainWindow::menu_Help</definition>
+        <argsstring></argsstring>
+        <name>menu_Help</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" line="34" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__mainWindow_190f9676e8f03d28b20dcca8b3a60551d" prot="public" static="no" mutable="no">
+        <type>QStatusBar *</type>
+        <definition>QStatusBar* Ui_mainWindow::statusbar</definition>
+        <argsstring></argsstring>
+        <name>statusbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" line="35" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classUi__mainWindow_1e7d1841a86020e8a4c12beb958596629" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_mainWindow::setupUi</definition>
+        <argsstring>(QMainWindow *mainWindow)</argsstring>
+        <name>setupUi</name>
+        <param>
+          <type>QMainWindow *</type>
+          <declname>mainWindow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" line="38" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" bodystart="37" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classUi__mainWindow_119d8fdf41c89c4e126c91765c5909d0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_mainWindow::retranslateUi</definition>
+        <argsstring>(QMainWindow *mainWindow)</argsstring>
+        <name>retranslateUi</name>
+        <param>
+          <type>QMainWindow *</type>
+          <declname>mainWindow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" line="77" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" bodystart="76" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="230">
+        <label>Ui::mainWindow</label>
+        <childnode refid="229" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>mainWindow</label>
+        <childnode refid="230" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="229">
+        <label>Ui_mainWindow</label>
+      </node>
+    </inheritancegraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" line="26" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWindow.h" bodystart="25" bodyend="87"/>
+    <listofallmembers>
+      <member refid="classUi__mainWindow_1d7c9dbffdf096c7068be6b136f053975" prot="public" virt="non-virtual"><scope>Ui_mainWindow</scope><name>action_About</name></member>
+      <member refid="classUi__mainWindow_1dd30d67e123e3379e7fff5056fc2ad01" prot="public" virt="non-virtual"><scope>Ui_mainWindow</scope><name>action_Quit</name></member>
+      <member refid="classUi__mainWindow_112a0f08eb19c9847fd0fb0e2823eeb65" prot="public" virt="non-virtual"><scope>Ui_mainWindow</scope><name>action_Server</name></member>
+      <member refid="classUi__mainWindow_18578bb15fb766da0afca5d8bd88c752e" prot="public" virt="non-virtual"><scope>Ui_mainWindow</scope><name>centralwidget</name></member>
+      <member refid="classUi__mainWindow_17f147d69b18576eba462406395983a73" prot="public" virt="non-virtual"><scope>Ui_mainWindow</scope><name>menu_File</name></member>
+      <member refid="classUi__mainWindow_15074379206c5cc604f088f4be86e571b" prot="public" virt="non-virtual"><scope>Ui_mainWindow</scope><name>menu_Help</name></member>
+      <member refid="classUi__mainWindow_1c1a654b71768b472b80d5f1dc6984036" prot="public" virt="non-virtual"><scope>Ui_mainWindow</scope><name>menubar</name></member>
+      <member refid="classUi__mainWindow_119d8fdf41c89c4e126c91765c5909d0e" prot="public" virt="non-virtual"><scope>Ui_mainWindow</scope><name>retranslateUi</name></member>
+      <member refid="classUi__mainWindow_1e7d1841a86020e8a4c12beb958596629" prot="public" virt="non-virtual"><scope>Ui_mainWindow</scope><name>setupUi</name></member>
+      <member refid="classUi__mainWindow_190f9676e8f03d28b20dcca8b3a60551d" prot="public" virt="non-virtual"><scope>Ui_mainWindow</scope><name>statusbar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

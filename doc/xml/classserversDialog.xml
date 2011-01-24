@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classserversDialog" kind="class" prot="public">
+    <compoundname>serversDialog</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">Ui::serversDialog</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classserversDialog_1cc7ca89f81961556c634110c2db2133d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serversDialog::serversDialog</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>serversDialog</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/serversDialog.h" line="33" bodyfile="/home/enjolras/edujudge/eewsgui/src/serversDialog.cpp" bodystart="29" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classserversDialog_1e160be5d35909d281f6843d1d2359595" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void serversDialog::updateServerList</definition>
+        <argsstring>()</argsstring>
+        <name>updateServerList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/serversDialog.h" line="36" bodyfile="/home/enjolras/edujudge/eewsgui/src/serversDialog.cpp" bodystart="44" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classserversDialog_129b8a92569c384216c00026544b4fbcb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void serversDialog::acceptList</definition>
+        <argsstring>()</argsstring>
+        <name>acceptList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/serversDialog.h" line="39" bodyfile="/home/enjolras/edujudge/eewsgui/src/serversDialog.cpp" bodystart="87" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="slot" id="classserversDialog_1180733217f87ea8fbb7f4d5562a4b13c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void serversDialog::addServer</definition>
+        <argsstring>()</argsstring>
+        <name>addServer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/serversDialog.h" line="40" bodyfile="/home/enjolras/edujudge/eewsgui/src/serversDialog.cpp" bodystart="59" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="slot" id="classserversDialog_182b43427ccd6f0f42dc116828f4d2a87" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void serversDialog::addServerURL</definition>
+        <argsstring>(QString newURL)</argsstring>
+        <name>addServerURL</name>
+        <param>
+          <type>QString</type>
+          <declname>newURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/serversDialog.h" line="41" bodyfile="/home/enjolras/edujudge/eewsgui/src/serversDialog.cpp" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="slot" id="classserversDialog_1a4455347b315d0c565050eed5fa4794b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void serversDialog::editServer</definition>
+        <argsstring>()</argsstring>
+        <name>editServer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/serversDialog.h" line="42" bodyfile="/home/enjolras/edujudge/eewsgui/src/serversDialog.cpp" bodystart="73" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="slot" id="classserversDialog_1f61f6edd21229479da5216ff02459c29" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void serversDialog::editServerURL</definition>
+        <argsstring>(QString newURL)</argsstring>
+        <name>editServerURL</name>
+        <param>
+          <type>QString</type>
+          <declname>newURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/serversDialog.h" line="43" bodyfile="/home/enjolras/edujudge/eewsgui/src/serversDialog.cpp" bodystart="81" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="slot" id="classserversDialog_1643c5a8825c217e52f5713416d5fd10e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void serversDialog::rowChanged</definition>
+        <argsstring>()</argsstring>
+        <name>rowChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/serversDialog.h" line="44" bodyfile="/home/enjolras/edujudge/eewsgui/src/serversDialog.cpp" bodystart="104" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="slot" id="classserversDialog_1f4df5a74959666c60676cb334082ccdb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void serversDialog::removeServer</definition>
+        <argsstring>()</argsstring>
+        <name>removeServer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/serversDialog.h" line="45" bodyfile="/home/enjolras/edujudge/eewsgui/src/serversDialog.cpp" bodystart="116" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classserversDialog_1ac4c304471774365dfc245c9c4d92b63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void serversDialog::serversUpdated</definition>
+        <argsstring>()</argsstring>
+        <name>serversUpdated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/serversDialog.h" line="48" bodyfile="/home/enjolras/edujudge/eewsgui/src/moc_serversDialog.cpp" bodystart="93" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="172">
+        <label>serversDialog</label>
+        <childnode refid="173" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="174">
+        <label>Ui_serversDialog</label>
+      </node>
+      <node id="173">
+        <label>Ui::serversDialog</label>
+        <childnode refid="174" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="175">
+        <label>serversDialog</label>
+        <childnode refid="176" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="177">
+        <label>Ui_serversDialog</label>
+      </node>
+      <node id="176">
+        <label>Ui::serversDialog</label>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/serversDialog.h" line="28" bodyfile="/home/enjolras/edujudge/eewsgui/src/serversDialog.h" bodystart="28" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classserversDialog_129b8a92569c384216c00026544b4fbcb" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>acceptList</name></member>
+      <member refid="classUi__serversDialog_1c7896369d901d21879d4fb0554933ce6" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>addButton</name></member>
+      <member refid="classserversDialog_1180733217f87ea8fbb7f4d5562a4b13c" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>addServer</name></member>
+      <member refid="classserversDialog_182b43427ccd6f0f42dc116828f4d2a87" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>addServerURL</name></member>
+      <member refid="classUi__serversDialog_147156824cd72d1380e43394ea2da3c3c" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>buttonBox</name></member>
+      <member refid="classUi__serversDialog_1a25a65576b01fce146eadf333069ab50" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>editButton</name></member>
+      <member refid="classserversDialog_1a4455347b315d0c565050eed5fa4794b" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>editServer</name></member>
+      <member refid="classserversDialog_1f61f6edd21229479da5216ff02459c29" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>editServerURL</name></member>
+      <member refid="classUi__serversDialog_198304a1d587773f3385b317b77bdc77b" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__serversDialog_11c6fdb7290f9cb62fefacad7f3fffab9" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>removeButton</name></member>
+      <member refid="classserversDialog_1f4df5a74959666c60676cb334082ccdb" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>removeServer</name></member>
+      <member refid="classUi__serversDialog_17a3e8e56c2149f39845be3732a0421cd" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>retranslateUi</name></member>
+      <member refid="classserversDialog_1643c5a8825c217e52f5713416d5fd10e" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>rowChanged</name></member>
+      <member refid="classUi__serversDialog_13794a76f065fb775ea5ee534fd24ab16" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>serverList</name></member>
+      <member refid="classserversDialog_1cc7ca89f81961556c634110c2db2133d" prot="public" virt="non-virtual"><scope>serversDialog</scope><name>serversDialog</name></member>
+      <member refid="classserversDialog_1ac4c304471774365dfc245c9c4d92b63" prot="public" virt="non-virtual"><scope>serversDialog</scope><name>serversUpdated</name></member>
+      <member refid="classUi__serversDialog_10496760c7915e2dfd9392b019ea91977" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>setupUi</name></member>
+      <member refid="classserversDialog_1e160be5d35909d281f6843d1d2359595" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>updateServerList</name></member>
+      <member refid="classUi__serversDialog_17ab6b58b6b51dce90734bc68ffbfc6f8" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>verticalLayout</name></member>
+      <member refid="classUi__serversDialog_1ce748d92ab0426dfe68fbd28685b7e82" prot="private" virt="non-virtual"><scope>serversDialog</scope><name>verticalSpacer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

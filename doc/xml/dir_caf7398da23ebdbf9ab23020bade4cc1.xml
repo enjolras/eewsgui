@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="dir_caf7398da23ebdbf9ab23020bade4cc1" kind="dir">
+    <compoundname>edujudge/eewsgui/src/</compoundname>
+    <innerdir refid="dir_b2898edb7010241cbae17f53df67f2c9">edujudge/eewsgui/src/eews/</innerdir>
+    <innerfile refid="aboutServerDialog_8cpp">aboutServerDialog.cpp</innerfile>
+    <innerfile refid="aboutServerDialog_8h">aboutServerDialog.h</innerfile>
+    <innerfile refid="addEditServer_8cpp">addEditServer.cpp</innerfile>
+    <innerfile refid="addEditServer_8h">addEditServer.h</innerfile>
+    <innerfile refid="connectDialog_8cpp">connectDialog.cpp</innerfile>
+    <innerfile refid="connectDialog_8h">connectDialog.h</innerfile>
+    <innerfile refid="eewsadmObject_8cpp">eewsadmObject.cpp</innerfile>
+    <innerfile refid="eewsadmObject_8h">eewsadmObject.h</innerfile>
+    <innerfile refid="genericTab_8cpp">genericTab.cpp</innerfile>
+    <innerfile refid="genericTab_8h">genericTab.h</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="mainWidget_8cpp">mainWidget.cpp</innerfile>
+    <innerfile refid="mainWidget_8h">mainWidget.h</innerfile>
+    <innerfile refid="mainWindow_8cpp">mainWindow.cpp</innerfile>
+    <innerfile refid="mainWindow_8h">mainWindow.h</innerfile>
+    <innerfile refid="moc__aboutServerDialog_8cpp">moc_aboutServerDialog.cpp</innerfile>
+    <innerfile refid="moc__addEditServer_8cpp">moc_addEditServer.cpp</innerfile>
+    <innerfile refid="moc__connectDialog_8cpp">moc_connectDialog.cpp</innerfile>
+    <innerfile refid="moc__eewsadmObject_8cpp">moc_eewsadmObject.cpp</innerfile>
+    <innerfile refid="moc__genericTab_8cpp">moc_genericTab.cpp</innerfile>
+    <innerfile refid="moc__mainWidget_8cpp">moc_mainWidget.cpp</innerfile>
+    <innerfile refid="moc__mainWindow_8cpp">moc_mainWindow.cpp</innerfile>
+    <innerfile refid="moc__pluginFieldsTab_8cpp">moc_pluginFieldsTab.cpp</innerfile>
+    <innerfile refid="moc__pluginTab_8cpp">moc_pluginTab.cpp</innerfile>
+    <innerfile refid="moc__qled_8cpp">moc_qled.cpp</innerfile>
+    <innerfile refid="moc__serversDialog_8cpp">moc_serversDialog.cpp</innerfile>
+    <innerfile refid="moc__serverTab_8cpp">moc_serverTab.cpp</innerfile>
+    <innerfile refid="pluginFieldsTab_8cpp">pluginFieldsTab.cpp</innerfile>
+    <innerfile refid="pluginFieldsTab_8h">pluginFieldsTab.h</innerfile>
+    <innerfile refid="pluginTab_8cpp">pluginTab.cpp</innerfile>
+    <innerfile refid="pluginTab_8h">pluginTab.h</innerfile>
+    <innerfile refid="qled_8cpp">qled.cpp</innerfile>
+    <innerfile refid="qled_8h">qled.h</innerfile>
+    <innerfile refid="qrc__eewsgui_8cpp">qrc_eewsgui.cpp</innerfile>
+    <innerfile refid="serversDialog_8cpp">serversDialog.cpp</innerfile>
+    <innerfile refid="serversDialog_8h">serversDialog.h</innerfile>
+    <innerfile refid="serverTab_8cpp">serverTab.cpp</innerfile>
+    <innerfile refid="serverTab_8h">serverTab.h</innerfile>
+    <innerfile refid="ui__aboutServerDialog_8h">ui_aboutServerDialog.h</innerfile>
+    <innerfile refid="ui__addEditServer_8h">ui_addEditServer.h</innerfile>
+    <innerfile refid="ui__connectDialog_8h">ui_connectDialog.h</innerfile>
+    <innerfile refid="ui__genericTab_8h">ui_genericTab.h</innerfile>
+    <innerfile refid="ui__mainWidget_8h">ui_mainWidget.h</innerfile>
+    <innerfile refid="ui__mainWindow_8h">ui_mainWindow.h</innerfile>
+    <innerfile refid="ui__pluginFieldsTab_8h">ui_pluginFieldsTab.h</innerfile>
+    <innerfile refid="ui__pluginTab_8h">ui_pluginTab.h</innerfile>
+    <innerfile refid="ui__serversDialog_8h">ui_serversDialog.h</innerfile>
+    <innerfile refid="ui__serverTab_8h">ui_serverTab.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enjolras/edujudge/eewsgui/src/"/>
+  </compounddef>
+</doxygen>

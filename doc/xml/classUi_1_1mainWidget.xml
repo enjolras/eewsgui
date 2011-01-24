@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi_1_1mainWidget" kind="class" prot="public">
+    <compoundname>Ui::mainWidget</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Ui_mainWidget</basecompoundref>
+    <derivedcompoundref refid="classmainWidget" prot="private" virt="non-virtual">mainWidget</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="63">
+        <label>mainWidget</label>
+        <childnode refid="61" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>Ui_mainWidget</label>
+      </node>
+      <node id="61">
+        <label>Ui::mainWidget</label>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="65">
+        <label>Ui_mainWidget</label>
+      </node>
+      <node id="64">
+        <label>Ui::mainWidget</label>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_mainWidget.h" line="68" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_mainWidget.h" bodystart="68" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classUi__mainWidget_1845b888fbf23ab9598849df43ff89a0c" prot="public" virt="non-virtual"><scope>Ui::mainWidget</scope><name>gridLayout</name></member>
+      <member refid="classUi__mainWidget_1b8c6a6341f53d719369c18c7cd0c9064" prot="public" virt="non-virtual"><scope>Ui::mainWidget</scope><name>retranslateUi</name></member>
+      <member refid="classUi__mainWidget_19f86f71f868c031af85987641c3a2324" prot="public" virt="non-virtual"><scope>Ui::mainWidget</scope><name>setupUi</name></member>
+      <member refid="classUi__mainWidget_1553753d9888d966b11aee172de850580" prot="public" virt="non-virtual"><scope>Ui::mainWidget</scope><name>tab</name></member>
+      <member refid="classUi__mainWidget_1f8dcbb0221a7c9c89d866eceb9557fc2" prot="public" virt="non-virtual"><scope>Ui::mainWidget</scope><name>tabWidget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi__aboutServerDialog" kind="class" prot="public">
+    <compoundname>Ui_aboutServerDialog</compoundname>
+    <derivedcompoundref refid="classUi_1_1aboutServerDialog" prot="public" virt="non-virtual">Ui::aboutServerDialog</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classUi__aboutServerDialog_1738995f1fe19f4e2bb9baa85f6fde0e8" prot="public" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* Ui_aboutServerDialog::gridLayout</definition>
+        <argsstring></argsstring>
+        <name>gridLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="31" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__aboutServerDialog_1fe38ac2a4da0863fad46682282fa9d54" prot="public" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* Ui_aboutServerDialog::horizontalLayout</definition>
+        <argsstring></argsstring>
+        <name>horizontalLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="32" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__aboutServerDialog_17be3b841dd8cb0d925b1c8e0948f4077" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_aboutServerDialog::verticalLayout_2</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="33" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__aboutServerDialog_18accd82f558564e5f90ba0ff54e40f77" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_aboutServerDialog::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="34" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__aboutServerDialog_1d252c60040bf336740124f088139c0b1" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_aboutServerDialog::label_2</definition>
+        <argsstring></argsstring>
+        <name>label_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="35" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__aboutServerDialog_16bd2792a1299846c9cabf369887b754a" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_aboutServerDialog::label_3</definition>
+        <argsstring></argsstring>
+        <name>label_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="36" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__aboutServerDialog_1d6a58eb8dc85daab7d37258892f90b5b" prot="public" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* Ui_aboutServerDialog::verticalSpacer</definition>
+        <argsstring></argsstring>
+        <name>verticalSpacer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="37" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__aboutServerDialog_18447f573c1038c02467fea13c70fe40d" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_aboutServerDialog::verticalLayout</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="38" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__aboutServerDialog_1fa24c8010dfdab8d8c59aa87e2be0434" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_aboutServerDialog::urlLabel</definition>
+        <argsstring></argsstring>
+        <name>urlLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="39" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__aboutServerDialog_191cea48ff5b2ea9be7d9ae06f323ad1c" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_aboutServerDialog::protocolLabel</definition>
+        <argsstring></argsstring>
+        <name>protocolLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="40" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__aboutServerDialog_1cabba188080f8409dfe5eded96289815" prot="public" static="no" mutable="no">
+        <type>QTextBrowser *</type>
+        <definition>QTextBrowser* Ui_aboutServerDialog::descBrowser</definition>
+        <argsstring></argsstring>
+        <name>descBrowser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="41" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__aboutServerDialog_1e7ae84fbfc6471fb4b8486d5b9cc5b39" prot="public" static="no" mutable="no">
+        <type>QDialogButtonBox *</type>
+        <definition>QDialogButtonBox* Ui_aboutServerDialog::buttonBox</definition>
+        <argsstring></argsstring>
+        <name>buttonBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="42" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classUi__aboutServerDialog_1dbe0b2653caabc56203d623959263f97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_aboutServerDialog::setupUi</definition>
+        <argsstring>(QDialog *aboutServerDialog)</argsstring>
+        <name>setupUi</name>
+        <param>
+          <type>QDialog *</type>
+          <declname>aboutServerDialog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="45" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="44" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classUi__aboutServerDialog_17ccbf8b4c70c31bd21057f0e9364f263" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_aboutServerDialog::retranslateUi</definition>
+        <argsstring>(QDialog *aboutServerDialog)</argsstring>
+        <name>retranslateUi</name>
+        <param>
+          <type>QDialog *</type>
+          <declname>aboutServerDialog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="116" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="115" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="210">
+        <label>Ui::aboutServerDialog</label>
+        <childnode refid="209" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="211">
+        <label>aboutServerDialog</label>
+        <childnode refid="210" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="209">
+        <label>Ui_aboutServerDialog</label>
+      </node>
+    </inheritancegraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="29" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" bodystart="28" bodyend="126"/>
+    <listofallmembers>
+      <member refid="classUi__aboutServerDialog_1e7ae84fbfc6471fb4b8486d5b9cc5b39" prot="public" virt="non-virtual"><scope>Ui_aboutServerDialog</scope><name>buttonBox</name></member>
+      <member refid="classUi__aboutServerDialog_1cabba188080f8409dfe5eded96289815" prot="public" virt="non-virtual"><scope>Ui_aboutServerDialog</scope><name>descBrowser</name></member>
+      <member refid="classUi__aboutServerDialog_1738995f1fe19f4e2bb9baa85f6fde0e8" prot="public" virt="non-virtual"><scope>Ui_aboutServerDialog</scope><name>gridLayout</name></member>
+      <member refid="classUi__aboutServerDialog_1fe38ac2a4da0863fad46682282fa9d54" prot="public" virt="non-virtual"><scope>Ui_aboutServerDialog</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__aboutServerDialog_18accd82f558564e5f90ba0ff54e40f77" prot="public" virt="non-virtual"><scope>Ui_aboutServerDialog</scope><name>label</name></member>
+      <member refid="classUi__aboutServerDialog_1d252c60040bf336740124f088139c0b1" prot="public" virt="non-virtual"><scope>Ui_aboutServerDialog</scope><name>label_2</name></member>
+      <member refid="classUi__aboutServerDialog_16bd2792a1299846c9cabf369887b754a" prot="public" virt="non-virtual"><scope>Ui_aboutServerDialog</scope><name>label_3</name></member>
+      <member refid="classUi__aboutServerDialog_191cea48ff5b2ea9be7d9ae06f323ad1c" prot="public" virt="non-virtual"><scope>Ui_aboutServerDialog</scope><name>protocolLabel</name></member>
+      <member refid="classUi__aboutServerDialog_17ccbf8b4c70c31bd21057f0e9364f263" prot="public" virt="non-virtual"><scope>Ui_aboutServerDialog</scope><name>retranslateUi</name></member>
+      <member refid="classUi__aboutServerDialog_1dbe0b2653caabc56203d623959263f97" prot="public" virt="non-virtual"><scope>Ui_aboutServerDialog</scope><name>setupUi</name></member>
+      <member refid="classUi__aboutServerDialog_1fa24c8010dfdab8d8c59aa87e2be0434" prot="public" virt="non-virtual"><scope>Ui_aboutServerDialog</scope><name>urlLabel</name></member>
+      <member refid="classUi__aboutServerDialog_18447f573c1038c02467fea13c70fe40d" prot="public" virt="non-virtual"><scope>Ui_aboutServerDialog</scope><name>verticalLayout</name></member>
+      <member refid="classUi__aboutServerDialog_17be3b841dd8cb0d925b1c8e0948f4077" prot="public" virt="non-virtual"><scope>Ui_aboutServerDialog</scope><name>verticalLayout_2</name></member>
+      <member refid="classUi__aboutServerDialog_1d6a58eb8dc85daab7d37258892f90b5b" prot="public" virt="non-virtual"><scope>Ui_aboutServerDialog</scope><name>verticalSpacer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

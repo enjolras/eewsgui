@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi__addEditServer" kind="class" prot="public">
+    <compoundname>Ui_addEditServer</compoundname>
+    <derivedcompoundref refid="classUi_1_1addEditServer" prot="public" virt="non-virtual">Ui::addEditServer</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classUi__addEditServer_1f8ff10060b169ba6003e6bcd72cded14" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_addEditServer::verticalLayout</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" line="30" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__addEditServer_102c60d642789dadb1f95dec5f99ff163" prot="public" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* Ui_addEditServer::verticalSpacer_2</definition>
+        <argsstring></argsstring>
+        <name>verticalSpacer_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" line="31" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__addEditServer_1c9459a50fa0f982cc0e916acd7f0cd5c" prot="public" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* Ui_addEditServer::horizontalLayout</definition>
+        <argsstring></argsstring>
+        <name>horizontalLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" line="32" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__addEditServer_166a6918a8315d00bd69e83ce8558a3cc" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_addEditServer::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" line="33" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__addEditServer_14fb47fe59dc0b837022dfaeed23a25af" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Ui_addEditServer::serverURL</definition>
+        <argsstring></argsstring>
+        <name>serverURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" line="34" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__addEditServer_1abfc1e6f3e67bb7075d15b78ebdd8277" prot="public" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* Ui_addEditServer::verticalSpacer</definition>
+        <argsstring></argsstring>
+        <name>verticalSpacer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" line="35" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__addEditServer_199b1128bebbf21a1c62a17783992fade" prot="public" static="no" mutable="no">
+        <type>QDialogButtonBox *</type>
+        <definition>QDialogButtonBox* Ui_addEditServer::buttonBox</definition>
+        <argsstring></argsstring>
+        <name>buttonBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" line="36" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classUi__addEditServer_13546eaadd20c90671244a7334f5c6cc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_addEditServer::setupUi</definition>
+        <argsstring>(QDialog *addEditServer)</argsstring>
+        <name>setupUi</name>
+        <param>
+          <type>QDialog *</type>
+          <declname>addEditServer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" line="39" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" bodystart="38" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classUi__addEditServer_186a9b759f1666d11a4f1cf3eb70b0825" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_addEditServer::retranslateUi</definition>
+        <argsstring>(QDialog *addEditServer)</argsstring>
+        <name>retranslateUi</name>
+        <param>
+          <type>QDialog *</type>
+          <declname>addEditServer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" line="90" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" bodystart="89" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="215">
+        <label>addEditServer</label>
+        <childnode refid="214" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="213">
+        <label>Ui_addEditServer</label>
+      </node>
+      <node id="214">
+        <label>Ui::addEditServer</label>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" line="28" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_addEditServer.h" bodystart="27" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classUi__addEditServer_199b1128bebbf21a1c62a17783992fade" prot="public" virt="non-virtual"><scope>Ui_addEditServer</scope><name>buttonBox</name></member>
+      <member refid="classUi__addEditServer_1c9459a50fa0f982cc0e916acd7f0cd5c" prot="public" virt="non-virtual"><scope>Ui_addEditServer</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__addEditServer_166a6918a8315d00bd69e83ce8558a3cc" prot="public" virt="non-virtual"><scope>Ui_addEditServer</scope><name>label</name></member>
+      <member refid="classUi__addEditServer_186a9b759f1666d11a4f1cf3eb70b0825" prot="public" virt="non-virtual"><scope>Ui_addEditServer</scope><name>retranslateUi</name></member>
+      <member refid="classUi__addEditServer_14fb47fe59dc0b837022dfaeed23a25af" prot="public" virt="non-virtual"><scope>Ui_addEditServer</scope><name>serverURL</name></member>
+      <member refid="classUi__addEditServer_13546eaadd20c90671244a7334f5c6cc8" prot="public" virt="non-virtual"><scope>Ui_addEditServer</scope><name>setupUi</name></member>
+      <member refid="classUi__addEditServer_1f8ff10060b169ba6003e6bcd72cded14" prot="public" virt="non-virtual"><scope>Ui_addEditServer</scope><name>verticalLayout</name></member>
+      <member refid="classUi__addEditServer_1abfc1e6f3e67bb7075d15b78ebdd8277" prot="public" virt="non-virtual"><scope>Ui_addEditServer</scope><name>verticalSpacer</name></member>
+      <member refid="classUi__addEditServer_102c60d642789dadb1f95dec5f99ff163" prot="public" virt="non-virtual"><scope>Ui_addEditServer</scope><name>verticalSpacer_2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

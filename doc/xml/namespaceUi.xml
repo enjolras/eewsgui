@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="namespaceUi" kind="namespace">
+    <compoundname>Ui</compoundname>
+    <innerclass refid="classUi_1_1aboutServerDialog" prot="public">Ui::aboutServerDialog</innerclass>
+    <innerclass refid="classUi_1_1addEditServer" prot="public">Ui::addEditServer</innerclass>
+    <innerclass refid="classUi_1_1connectDialog" prot="public">Ui::connectDialog</innerclass>
+    <innerclass refid="classUi_1_1genericTab" prot="public">Ui::genericTab</innerclass>
+    <innerclass refid="classUi_1_1mainWidget" prot="public">Ui::mainWidget</innerclass>
+    <innerclass refid="classUi_1_1mainWindow" prot="public">Ui::mainWindow</innerclass>
+    <innerclass refid="classUi_1_1pluginFieldsTab" prot="public">Ui::pluginFieldsTab</innerclass>
+    <innerclass refid="classUi_1_1pluginTab" prot="public">Ui::pluginTab</innerclass>
+    <innerclass refid="classUi_1_1serversDialog" prot="public">Ui::serversDialog</innerclass>
+    <innerclass refid="classUi_1_1serverTab" prot="public">Ui::serverTab</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_aboutServerDialog.h" line="128"/>
+  </compounddef>
+</doxygen>

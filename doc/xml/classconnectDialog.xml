@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classconnectDialog" kind="class" prot="public">
+    <compoundname>connectDialog</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">Ui::connectDialog</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classconnectDialog_13ae49d17714a3953a8e7eb8718ca50c6" prot="public" static="no" mutable="no">
+        <type>QString *</type>
+        <definition>QString* connectDialog::URL</definition>
+        <argsstring></argsstring>
+        <name>URL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/connectDialog.h" line="34" bodyfile="/home/enjolras/edujudge/eewsgui/src/connectDialog.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classconnectDialog_1d6337c04bce136320a1fa923da185c75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>connectDialog::connectDialog</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>connectDialog</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/connectDialog.h" line="33" bodyfile="/home/enjolras/edujudge/eewsgui/src/connectDialog.cpp" bodystart="25" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classconnectDialog_17606b675a61cebf7a35440bcc8e4be54" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void connectDialog::connectClicked</definition>
+        <argsstring>()</argsstring>
+        <name>connectClicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/connectDialog.h" line="37" bodyfile="/home/enjolras/edujudge/eewsgui/src/connectDialog.cpp" bodystart="37" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="slot" id="classconnectDialog_13f4626ad1683e52eab30de55979a3ea9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void connectDialog::serversClicked</definition>
+        <argsstring>()</argsstring>
+        <name>serversClicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/connectDialog.h" line="38" bodyfile="/home/enjolras/edujudge/eewsgui/src/connectDialog.cpp" bodystart="44" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classconnectDialog_1ef8d3f7b9fa611d1d56c65ee22701cbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void connectDialog::updateList</definition>
+        <argsstring>()</argsstring>
+        <name>updateList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/connectDialog.h" line="41" bodyfile="/home/enjolras/edujudge/eewsgui/src/connectDialog.cpp" bodystart="52" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classconnectDialog_14808210b10d06ebb6eab4ea0b1ebdaf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void connectDialog::readyToConnect</definition>
+        <argsstring>(QString *URL)</argsstring>
+        <name>readyToConnect</name>
+        <param>
+          <type>QString *</type>
+          <declname>URL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/connectDialog.h" line="44" bodyfile="/home/enjolras/edujudge/eewsgui/src/moc_connectDialog.cpp" bodystart="83" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="24">
+        <label>connectDialog</label>
+        <childnode refid="25" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>Ui::connectDialog</label>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>Ui_connectDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="27">
+        <label>connectDialog</label>
+        <childnode refid="28" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>Ui::connectDialog</label>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>Ui_connectDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/connectDialog.h" line="28" bodyfile="/home/enjolras/edujudge/eewsgui/src/connectDialog.h" bodystart="28" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classUi__connectDialog_112235386a4217610500951a5caab9c6d" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>connectButton</name></member>
+      <member refid="classconnectDialog_17606b675a61cebf7a35440bcc8e4be54" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>connectClicked</name></member>
+      <member refid="classconnectDialog_1d6337c04bce136320a1fa923da185c75" prot="public" virt="non-virtual"><scope>connectDialog</scope><name>connectDialog</name></member>
+      <member refid="classUi__connectDialog_14ffba335f33a938095aba3ee872e60ab" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__connectDialog_1246832753e764197a07ed756f7aaed55" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>horizontalLayout_4</name></member>
+      <member refid="classUi__connectDialog_10230fe0794423f556d2ddb2e2cdd7ab6" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>horizontalSpacer</name></member>
+      <member refid="classUi__connectDialog_1a46f6243873efc7beebe0563951e4740" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>label</name></member>
+      <member refid="classUi__connectDialog_1b9acaf128657f7b7de31429a774594a4" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>quitButton</name></member>
+      <member refid="classconnectDialog_14808210b10d06ebb6eab4ea0b1ebdaf0" prot="public" virt="non-virtual"><scope>connectDialog</scope><name>readyToConnect</name></member>
+      <member refid="classUi__connectDialog_11dd52118ca77d21d3bf35c278c137496" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>retranslateUi</name></member>
+      <member refid="classUi__connectDialog_130e7490a6689b768dae8b5f4dc7b5081" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>serversButton</name></member>
+      <member refid="classconnectDialog_13f4626ad1683e52eab30de55979a3ea9" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>serversClicked</name></member>
+      <member refid="classUi__connectDialog_17c00251408f0b569f640596c3725047c" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>serverURL</name></member>
+      <member refid="classUi__connectDialog_14a873c9c0ce38c8fc9f39e6921a5c3c4" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>setupUi</name></member>
+      <member refid="classconnectDialog_1ef8d3f7b9fa611d1d56c65ee22701cbc" prot="public" virt="non-virtual"><scope>connectDialog</scope><name>updateList</name></member>
+      <member refid="classconnectDialog_13ae49d17714a3953a8e7eb8718ca50c6" prot="public" virt="non-virtual"><scope>connectDialog</scope><name>URL</name></member>
+      <member refid="classUi__connectDialog_15a09e6091c4be897b4083b0646e78ca4" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>verticalLayout</name></member>
+      <member refid="classUi__connectDialog_176d056f9327b2ccfd7478f83f4d45675" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>verticalLayout_2</name></member>
+      <member refid="classUi__connectDialog_1a0c4bc5330bfb9f0ddb78766baec5f6c" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>verticalLayout_3</name></member>
+      <member refid="classUi__connectDialog_116ef50b7db6a591da3611acbfb310005" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>verticalSpacer</name></member>
+      <member refid="classUi__connectDialog_16ab465fb56a63454b04b54833d82ae58" prot="private" virt="non-virtual"><scope>connectDialog</scope><name>verticalSpacer_2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

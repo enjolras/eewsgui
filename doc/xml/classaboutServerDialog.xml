@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classaboutServerDialog" kind="class" prot="public">
+    <compoundname>aboutServerDialog</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">Ui::aboutServerDialog</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classaboutServerDialog_1bdae912a64952f50d4bd98addba60f22" prot="private" static="no" mutable="no">
+        <type>eewsadmObject *</type>
+        <definition>eewsadmObject* aboutServerDialog::eewsadm</definition>
+        <argsstring></argsstring>
+        <name>eewsadm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/aboutServerDialog.h" line="37" bodyfile="/home/enjolras/edujudge/eewsgui/src/aboutServerDialog.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classaboutServerDialog_1b2b6800c6ae2e744aad568479d0bd79b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>aboutServerDialog::aboutServerDialog</definition>
+        <argsstring>(QWidget *parent=0, eewsadmObject *eews=0)</argsstring>
+        <name>aboutServerDialog</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>eewsadmObject *</type>
+          <declname>eews</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/aboutServerDialog.h" line="33" bodyfile="/home/enjolras/edujudge/eewsgui/src/aboutServerDialog.cpp" bodystart="25" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classaboutServerDialog_1fc00e8b9bcd03fdd5882f676ca162ddb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void aboutServerDialog::loadData</definition>
+        <argsstring>()</argsstring>
+        <name>loadData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/aboutServerDialog.h" line="34" bodyfile="/home/enjolras/edujudge/eewsgui/src/aboutServerDialog.cpp" bodystart="35" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ui::aboutServerDialog</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>aboutServerDialog</label>
+        <childnode refid="1" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ui_aboutServerDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>eewsadmProxy</label>
+      </node>
+      <node id="4">
+        <label>Ui::aboutServerDialog</label>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>aboutServerDialog</label>
+        <childnode refid="4" relation="private-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>eewsadm</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ui_aboutServerDialog</label>
+      </node>
+      <node id="6">
+        <label>eewsadmObject</label>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/aboutServerDialog.h" line="28" bodyfile="/home/enjolras/edujudge/eewsgui/src/aboutServerDialog.h" bodystart="28" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classaboutServerDialog_1b2b6800c6ae2e744aad568479d0bd79b" prot="public" virt="non-virtual"><scope>aboutServerDialog</scope><name>aboutServerDialog</name></member>
+      <member refid="classUi__aboutServerDialog_1e7ae84fbfc6471fb4b8486d5b9cc5b39" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>buttonBox</name></member>
+      <member refid="classUi__aboutServerDialog_1cabba188080f8409dfe5eded96289815" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>descBrowser</name></member>
+      <member refid="classaboutServerDialog_1bdae912a64952f50d4bd98addba60f22" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>eewsadm</name></member>
+      <member refid="classUi__aboutServerDialog_1738995f1fe19f4e2bb9baa85f6fde0e8" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>gridLayout</name></member>
+      <member refid="classUi__aboutServerDialog_1fe38ac2a4da0863fad46682282fa9d54" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__aboutServerDialog_18accd82f558564e5f90ba0ff54e40f77" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>label</name></member>
+      <member refid="classUi__aboutServerDialog_1d252c60040bf336740124f088139c0b1" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>label_2</name></member>
+      <member refid="classUi__aboutServerDialog_16bd2792a1299846c9cabf369887b754a" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>label_3</name></member>
+      <member refid="classaboutServerDialog_1fc00e8b9bcd03fdd5882f676ca162ddb" prot="public" virt="non-virtual"><scope>aboutServerDialog</scope><name>loadData</name></member>
+      <member refid="classUi__aboutServerDialog_191cea48ff5b2ea9be7d9ae06f323ad1c" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>protocolLabel</name></member>
+      <member refid="classUi__aboutServerDialog_17ccbf8b4c70c31bd21057f0e9364f263" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>retranslateUi</name></member>
+      <member refid="classUi__aboutServerDialog_1dbe0b2653caabc56203d623959263f97" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>setupUi</name></member>
+      <member refid="classUi__aboutServerDialog_1fa24c8010dfdab8d8c59aa87e2be0434" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>urlLabel</name></member>
+      <member refid="classUi__aboutServerDialog_18447f573c1038c02467fea13c70fe40d" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>verticalLayout</name></member>
+      <member refid="classUi__aboutServerDialog_17be3b841dd8cb0d925b1c8e0948f4077" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>verticalLayout_2</name></member>
+      <member refid="classUi__aboutServerDialog_1d6a58eb8dc85daab7d37258892f90b5b" prot="private" virt="non-virtual"><scope>aboutServerDialog</scope><name>verticalSpacer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

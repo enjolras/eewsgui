@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi_1_1connectDialog" kind="class" prot="public">
+    <compoundname>Ui::connectDialog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Ui_connectDialog</basecompoundref>
+    <derivedcompoundref refid="classconnectDialog" prot="private" virt="non-virtual">connectDialog</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="32">
+        <label>connectDialog</label>
+        <childnode refid="30" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>Ui::connectDialog</label>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>Ui_connectDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="33">
+        <label>Ui::connectDialog</label>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>Ui_connectDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_connectDialog.h" line="153" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_connectDialog.h" bodystart="153" bodyend="153"/>
+    <listofallmembers>
+      <member refid="classUi__connectDialog_112235386a4217610500951a5caab9c6d" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>connectButton</name></member>
+      <member refid="classUi__connectDialog_14ffba335f33a938095aba3ee872e60ab" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__connectDialog_1246832753e764197a07ed756f7aaed55" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>horizontalLayout_4</name></member>
+      <member refid="classUi__connectDialog_10230fe0794423f556d2ddb2e2cdd7ab6" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>horizontalSpacer</name></member>
+      <member refid="classUi__connectDialog_1a46f6243873efc7beebe0563951e4740" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>label</name></member>
+      <member refid="classUi__connectDialog_1b9acaf128657f7b7de31429a774594a4" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>quitButton</name></member>
+      <member refid="classUi__connectDialog_11dd52118ca77d21d3bf35c278c137496" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>retranslateUi</name></member>
+      <member refid="classUi__connectDialog_130e7490a6689b768dae8b5f4dc7b5081" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>serversButton</name></member>
+      <member refid="classUi__connectDialog_17c00251408f0b569f640596c3725047c" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>serverURL</name></member>
+      <member refid="classUi__connectDialog_14a873c9c0ce38c8fc9f39e6921a5c3c4" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>setupUi</name></member>
+      <member refid="classUi__connectDialog_15a09e6091c4be897b4083b0646e78ca4" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>verticalLayout</name></member>
+      <member refid="classUi__connectDialog_176d056f9327b2ccfd7478f83f4d45675" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>verticalLayout_2</name></member>
+      <member refid="classUi__connectDialog_1a0c4bc5330bfb9f0ddb78766baec5f6c" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>verticalLayout_3</name></member>
+      <member refid="classUi__connectDialog_116ef50b7db6a591da3611acbfb310005" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>verticalSpacer</name></member>
+      <member refid="classUi__connectDialog_16ab465fb56a63454b04b54833d82ae58" prot="public" virt="non-virtual"><scope>Ui::connectDialog</scope><name>verticalSpacer_2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

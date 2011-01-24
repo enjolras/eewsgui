@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi__genericTab" kind="class" prot="public">
+    <compoundname>Ui_genericTab</compoundname>
+    <derivedcompoundref refid="classUi_1_1genericTab" prot="public" virt="non-virtual">Ui::genericTab</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classUi__genericTab_16df550176b078692d0c946b8d31c0fb3" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_genericTab::verticalLayout</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" line="28" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__genericTab_15e2519979c70eedfee606d3abc7e1e2d" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_genericTab::tabTitle</definition>
+        <argsstring></argsstring>
+        <name>tabTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" line="29" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__genericTab_11e86cf2882d788cf3e4bd0a27428a3c0" prot="public" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* Ui_genericTab::verticalSpacer</definition>
+        <argsstring></argsstring>
+        <name>verticalSpacer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" line="30" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__genericTab_14d164af70b0941226dd562281e9d3853" prot="public" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* Ui_genericTab::horizontalLayout</definition>
+        <argsstring></argsstring>
+        <name>horizontalLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" line="31" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__genericTab_178553b9b20e55471176030115c9ff035" prot="public" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* Ui_genericTab::horizontalSpacer</definition>
+        <argsstring></argsstring>
+        <name>horizontalSpacer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" line="32" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUi__genericTab_164cc06b4c5999061a6a7b1f0987b1f94" prot="public" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* Ui_genericTab::centralWidget</definition>
+        <argsstring></argsstring>
+        <name>centralWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" line="33" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classUi__genericTab_1dddff70814a8e39463a5094bc4e63f4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_genericTab::setupUi</definition>
+        <argsstring>(QWidget *genericTab)</argsstring>
+        <name>setupUi</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>genericTab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" line="36" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" bodystart="35" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classUi__genericTab_14dd4b527e65051a866c408e21b2b887c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_genericTab::retranslateUi</definition>
+        <argsstring>(QWidget *genericTab)</argsstring>
+        <name>retranslateUi</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>genericTab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" line="84" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" bodystart="83" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="223">
+        <label>genericTab</label>
+        <childnode refid="222" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="222">
+        <label>Ui::genericTab</label>
+        <childnode refid="221" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="221">
+        <label>Ui_genericTab</label>
+      </node>
+    </inheritancegraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" line="26" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_genericTab.h" bodystart="25" bodyend="90"/>
+    <listofallmembers>
+      <member refid="classUi__genericTab_164cc06b4c5999061a6a7b1f0987b1f94" prot="public" virt="non-virtual"><scope>Ui_genericTab</scope><name>centralWidget</name></member>
+      <member refid="classUi__genericTab_14d164af70b0941226dd562281e9d3853" prot="public" virt="non-virtual"><scope>Ui_genericTab</scope><name>horizontalLayout</name></member>
+      <member refid="classUi__genericTab_178553b9b20e55471176030115c9ff035" prot="public" virt="non-virtual"><scope>Ui_genericTab</scope><name>horizontalSpacer</name></member>
+      <member refid="classUi__genericTab_14dd4b527e65051a866c408e21b2b887c" prot="public" virt="non-virtual"><scope>Ui_genericTab</scope><name>retranslateUi</name></member>
+      <member refid="classUi__genericTab_1dddff70814a8e39463a5094bc4e63f4a" prot="public" virt="non-virtual"><scope>Ui_genericTab</scope><name>setupUi</name></member>
+      <member refid="classUi__genericTab_15e2519979c70eedfee606d3abc7e1e2d" prot="public" virt="non-virtual"><scope>Ui_genericTab</scope><name>tabTitle</name></member>
+      <member refid="classUi__genericTab_16df550176b078692d0c946b8d31c0fb3" prot="public" virt="non-virtual"><scope>Ui_genericTab</scope><name>verticalLayout</name></member>
+      <member refid="classUi__genericTab_11e86cf2882d788cf3e4bd0a27428a3c0" prot="public" virt="non-virtual"><scope>Ui_genericTab</scope><name>verticalSpacer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

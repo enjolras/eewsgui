@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classUi_1_1pluginTab" kind="class" prot="public">
+    <compoundname>Ui::pluginTab</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Ui_pluginTab</basecompoundref>
+    <derivedcompoundref refid="classpluginTab" prot="private" virt="non-virtual">pluginTab</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="165">
+        <label>Ui::pluginTab</label>
+        <childnode refid="166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>Ui_pluginTab</label>
+      </node>
+      <node id="167">
+        <label>pluginTab</label>
+        <childnode refid="165" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="168">
+        <label>Ui::pluginTab</label>
+        <childnode refid="169" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="169">
+        <label>Ui_pluginTab</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/ui_pluginTab.h" line="69" bodyfile="/home/enjolras/edujudge/eewsgui/src/ui_pluginTab.h" bodystart="69" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classUi__pluginTab_17a0f6cad88628d662b9b49f3a53a4038" prot="public" virt="non-virtual"><scope>Ui::pluginTab</scope><name>pluginTable</name></member>
+      <member refid="classUi__pluginTab_1332c95d9b662695c0857095e378831b7" prot="public" virt="non-virtual"><scope>Ui::pluginTab</scope><name>retranslateUi</name></member>
+      <member refid="classUi__pluginTab_19fc624319bd7d1290abbc8f99d9198c1" prot="public" virt="non-virtual"><scope>Ui::pluginTab</scope><name>setupUi</name></member>
+      <member refid="classUi__pluginTab_13c321d263b44ea74a21eb1fc38a77458" prot="public" virt="non-virtual"><scope>Ui::pluginTab</scope><name>verticalLayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

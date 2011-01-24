@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.5">
+  <compounddef id="classmainWindow" kind="class" prot="public">
+    <compoundname>mainWindow</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">Ui::mainWindow</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classmainWindow_1ac4c91d2083f7844bdefa8a6b22c429b" prot="protected" static="no" mutable="no">
+        <type>eewsadmObject *</type>
+        <definition>eewsadmObject* mainWindow::eewsadm</definition>
+        <argsstring></argsstring>
+        <name>eewsadm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/mainWindow.h" line="39" bodyfile="/home/enjolras/edujudge/eewsgui/src/mainWindow.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmainWindow_17626add53c996458319d67d0ea11b99f" prot="private" static="no" mutable="no">
+        <type>connectDialog *</type>
+        <definition>connectDialog* mainWindow::connectServer</definition>
+        <argsstring></argsstring>
+        <name>connectServer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/mainWindow.h" line="43" bodyfile="/home/enjolras/edujudge/eewsgui/src/mainWindow.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmainWindow_18eda6905a87be101cbbf39e19783b750" prot="private" static="no" mutable="no">
+        <type>aboutServerDialog *</type>
+        <definition>aboutServerDialog* mainWindow::aboutServer</definition>
+        <argsstring></argsstring>
+        <name>aboutServer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/mainWindow.h" line="44" bodyfile="/home/enjolras/edujudge/eewsgui/src/mainWindow.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmainWindow_14b70f914e07549dc4528c590af7cc8b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mainWindow::mainWindow</definition>
+        <argsstring>(QMainWindow *parent=0)</argsstring>
+        <name>mainWindow</name>
+        <param>
+          <type>QMainWindow *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/mainWindow.h" line="36" bodyfile="/home/enjolras/edujudge/eewsgui/src/mainWindow.cpp" bodystart="32" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classmainWindow_172a245468cd6dc0f145ab5628644a293" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mainWindow::closeEvent</definition>
+        <argsstring>(QCloseEvent *event)</argsstring>
+        <name>closeEvent</name>
+        <param>
+          <type>QCloseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/mainWindow.h" line="42" bodyfile="/home/enjolras/edujudge/eewsgui/src/mainWindow.cpp" bodystart="52" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classmainWindow_184f6ecd3268923309c651c3a3f895131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mainWindow::startConnection</definition>
+        <argsstring>(QString *URL)</argsstring>
+        <name>startConnection</name>
+        <param>
+          <type>QString *</type>
+          <declname>URL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/mainWindow.h" line="47" bodyfile="/home/enjolras/edujudge/eewsgui/src/mainWindow.cpp" bodystart="60" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="slot" id="classmainWindow_1dbda49806f129a2ba890b3a72dcb6f42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mainWindow::updateStatusBar</definition>
+        <argsstring>(QString *message)</argsstring>
+        <name>updateStatusBar</name>
+        <param>
+          <type>QString *</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/enjolras/edujudge/eewsgui/src/mainWindow.h" line="48" bodyfile="/home/enjolras/edujudge/eewsgui/src/mainWindow.cpp" bodystart="81" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="67">
+        <label>Ui::mainWindow</label>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>mainWindow</label>
+        <childnode refid="67" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>Ui_mainWindow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="76">
+        <label>eewsadmProxy</label>
+      </node>
+      <node id="70">
+        <label>Ui::mainWindow</label>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>connectDialog</label>
+        <childnode refid="78" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>Ui::aboutServerDialog</label>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>aboutServerDialog</label>
+        <childnode refid="73" relation="private-inheritance">
+        </childnode>
+        <childnode refid="75" relation="usage">
+          <edgelabel>eewsadm</edgelabel>
+        </childnode>
+      </node>
+      <node id="74">
+        <label>Ui_aboutServerDialog</label>
+      </node>
+      <node id="78">
+        <label>Ui::connectDialog</label>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>mainWindow</label>
+        <childnode refid="70" relation="private-inheritance">
+        </childnode>
+        <childnode refid="72" relation="usage">
+          <edgelabel>aboutServer</edgelabel>
+        </childnode>
+        <childnode refid="77" relation="usage">
+          <edgelabel>connectServer</edgelabel>
+        </childnode>
+        <childnode refid="75" relation="usage">
+          <edgelabel>eewsadm</edgelabel>
+        </childnode>
+      </node>
+      <node id="75">
+        <label>eewsadmObject</label>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>Ui_connectDialog</label>
+      </node>
+      <node id="71">
+        <label>Ui_mainWindow</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/enjolras/edujudge/eewsgui/src/mainWindow.h" line="31" bodyfile="/home/enjolras/edujudge/eewsgui/src/mainWindow.h" bodystart="31" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classmainWindow_18eda6905a87be101cbbf39e19783b750" prot="private" virt="non-virtual"><scope>mainWindow</scope><name>aboutServer</name></member>
+      <member refid="classUi__mainWindow_1d7c9dbffdf096c7068be6b136f053975" prot="private" virt="non-virtual"><scope>mainWindow</scope><name>action_About</name></member>
+      <member refid="classUi__mainWindow_1dd30d67e123e3379e7fff5056fc2ad01" prot="private" virt="non-virtual"><scope>mainWindow</scope><name>action_Quit</name></member>
+      <member refid="classUi__mainWindow_112a0f08eb19c9847fd0fb0e2823eeb65" prot="private" virt="non-virtual"><scope>mainWindow</scope><name>action_Server</name></member>
+      <member refid="classUi__mainWindow_18578bb15fb766da0afca5d8bd88c752e" prot="private" virt="non-virtual"><scope>mainWindow</scope><name>centralwidget</name></member>
+      <member refid="classmainWindow_172a245468cd6dc0f145ab5628644a293" prot="private" virt="non-virtual"><scope>mainWindow</scope><name>closeEvent</name></member>
+      <member refid="classmainWindow_17626add53c996458319d67d0ea11b99f" prot="private" virt="non-virtual"><scope>mainWindow</scope><name>connectServer</name></member>
+      <member refid="classmainWindow_1ac4c91d2083f7844bdefa8a6b22c429b" prot="protected" virt="non-virtual"><scope>mainWindow</scope><name>eewsadm</name></member>
+      <member refid="classmainWindow_14b70f914e07549dc4528c590af7cc8b8" prot="public" virt="non-virtual"><scope>mainWindow</scope><name>mainWindow</name></member>
+      <member refid="classUi__mainWindow_17f147d69b18576eba462406395983a73" prot="private" virt="non-virtual"><scope>mainWindow</scope><name>menu_File</name></member>
+      <member refid="classUi__mainWindow_15074379206c5cc604f088f4be86e571b" prot="private" virt="non-virtual"><scope>mainWindow</scope><name>menu_Help</name></member>
+      <member refid="classUi__mainWindow_1c1a654b71768b472b80d5f1dc6984036" prot="private" virt="non-virtual"><scope>mainWindow</scope><name>menubar</name></member>
+      <member refid="classUi__mainWindow_119d8fdf41c89c4e126c91765c5909d0e" prot="private" virt="non-virtual"><scope>mainWindow</scope><name>retranslateUi</name></member>
+      <member refid="classUi__mainWindow_1e7d1841a86020e8a4c12beb958596629" prot="private" virt="non-virtual"><scope>mainWindow</scope><name>setupUi</name></member>
+      <member refid="classmainWindow_184f6ecd3268923309c651c3a3f895131" prot="public" virt="non-virtual"><scope>mainWindow</scope><name>startConnection</name></member>
+      <member refid="classUi__mainWindow_190f9676e8f03d28b20dcca8b3a60551d" prot="private" virt="non-virtual"><scope>mainWindow</scope><name>statusbar</name></member>
+      <member refid="classmainWindow_1dbda49806f129a2ba890b3a72dcb6f42" prot="public" virt="non-virtual"><scope>mainWindow</scope><name>updateStatusBar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>translations/es.qm</file>
+	<file>translations/qt_es.qm</file>
+	<file>images/edujudge.png</file>
+	<file>images/edujudge.ico</file>
+	<file>images/icon-server.png</file>
+	<file>images/icon-database.png</file>
+	<file>images/icon-cache.png</file>
+	<file>images/icon-plugins.png</file>
+	<file>images/icon-languages.png</file>
+    </qresource>
+</RCC>
